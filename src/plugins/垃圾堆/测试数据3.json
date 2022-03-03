@@ -1,0 +1,769 @@
+{
+    "msg": "success",
+    "code": 0,
+    "data": {
+        "real": {
+            "station": {
+                "code": "54618",
+                "province": "河北省",
+                "city": "泊头",
+                "url": "/publish/forecast/AHE/botou.html"
+            },
+            "publish_time": "2021-07-31 21:40",
+            "weather": {
+                "temperature": 22.2,
+                "temperatureDiff": -3.1,
+                "airpressure": 995.0,
+                "humidity": 84.0,
+                "rain": 0.0,
+                "rcomfort": 57,
+                "icomfort": -1,
+                "info": "多云",
+                "img": "1",
+                "feelst": 11.6
+            },
+            "wind": {
+                "direct": "西北风",
+                "power": "7级",
+                "speed": ""
+            },
+            "warn": {
+                "alert": "2021年07月31日21时河北省沧州市泊头市气象台发布暴雨蓝色预警信号",
+                "pic": "http://image.nmc.cn/assets/img/alarm/p0002004.png",
+                "province": "河北省",
+                "city": "沧州市",
+                "url": "/publish/alarm/13098141600000_20210731214148.html",
+                "issuecontent": "//预警信息泊头市气象台2021年07月31日21时40分发布暴雨蓝色预警信号：目前我市部分乡镇降雨量已达40毫米以上，预计今天夜间，我市（市区、文庙、寺门村、营子、齐桥、郝村等乡镇）将受暴雨天气影响，雨量将达50毫米以上，降雨时可伴有短时强降水、大风、冰雹等强对流天气，请有关单位和人员做好防范准备。",
+                " f":"fmeans,防御指南",
+                "fmeans": "1.政府及相关部门按照职责做好防暴雨准备工作；2.学校、幼儿园采取适当措施，保证学生和幼儿安全； 3.驾驶人员应当注意道路积水和交通阻塞，确保安全；4.检查城市、农田、鱼塘排水系统，做好排涝准备.",
+                "signaltype": "暴雨",
+                "signallevel": "蓝色",
+                "pic2": "p0002004.png"
+            }
+        },
+        "predict": {
+            "station": {
+                "code": "54618",
+                "province": "河北省",
+                "city": "泊头",
+                "url": "/publish/forecast/AHE/botou.html"
+            },
+            "publish_time": "2021-07-31 20:00",
+            "detail": [
+                {
+                    "date": "2021-07-31",
+                    "pt": "2021-07-31 20:00",
+                    "day": {
+                        "weather": {
+                            "info": "9999",
+                            "img": "9999",
+                            "temperature": "9999"
+                        },
+                        "wind": {
+                            "direct": "9999",
+                            "power": "9999"
+                        }
+                    },
+                    "night": {
+                        "weather": {
+                            "info": "中雨",
+                            "img": "8",
+                            "temperature": "22"
+                        },
+                        "wind": {
+                            "direct": "南风",
+                            "power": "微风"
+                        }
+                    }
+                },
+                {
+                    "date": "2021-08-01",
+                    "pt": "2021-07-31 20:00",
+                    "day": {
+                        "weather": {
+                            "info": "多云",
+                            "img": "1",
+                            "temperature": "31"
+                        },
+                        "wind": {
+                            "direct": "北风",
+                            "power": "微风"
+                        }
+                    },
+                    "night": {
+                        "weather": {
+                            "info": "多云",
+                            "img": "1",
+                            "temperature": "22"
+                        },
+                        "wind": {
+                            "direct": "北风",
+                            "power": "微风"
+                        }
+                    }
+                },
+                {
+                    "date": "2021-08-02",
+                    "pt": "2021-07-31 20:00",
+                    "day": {
+                        "weather": {
+                            "info": "多云",
+                            "img": "1",
+                            "temperature": "30"
+                        },
+                        "wind": {
+                            "direct": "东北风",
+                            "power": "微风"
+                        }
+                    },
+                    "night": {
+                        "weather": {
+                            "info": "多云",
+                            "img": "1",
+                            "temperature": "22"
+                        },
+                        "wind": {
+                            "direct": "东北风",
+                            "power": "微风"
+                        }
+                    }
+                },
+                {
+                    "date": "2021-08-03",
+                    "pt": "2021-07-31 20:00",
+                    "day": {
+                        "weather": {
+                            "info": "阴",
+                            "img": "2",
+                            "temperature": "30"
+                        },
+                        "wind": {
+                            "direct": "东北风",
+                            "power": "微风"
+                        }
+                    },
+                    "night": {
+                        "weather": {
+                            "info": "阴",
+                            "img": "2",
+                            "temperature": "23"
+                        },
+                        "wind": {
+                            "direct": "东风",
+                            "power": "微风"
+                        }
+                    }
+                },
+                {
+                    "date": "2021-08-04",
+                    "pt": "2021-07-31 20:00",
+                    "day": {
+                        "weather": {
+                            "info": "雷阵雨",
+                            "img": "4",
+                            "temperature": "31"
+                        },
+                        "wind": {
+                            "direct": "东南风",
+                            "power": "微风"
+                        }
+                    },
+                    "night": {
+                        "weather": {
+                            "info": "雷阵雨",
+                            "img": "4",
+                            "temperature": "25"
+                        },
+                        "wind": {
+                            "direct": "东南风",
+                            "power": "微风"
+                        }
+                    }
+                },
+                {
+                    "date": "2021-08-05",
+                    "pt": "2021-07-31 20:00",
+                    "day": {
+                        "weather": {
+                            "info": "阴",
+                            "img": "2",
+                            "temperature": "30"
+                        },
+                        "wind": {
+                            "direct": "东北风",
+                            "power": "微风"
+                        }
+                    },
+                    "night": {
+                        "weather": {
+                            "info": "多云",
+                            "img": "1",
+                            "temperature": "23"
+                        },
+                        "wind": {
+                            "direct": "北风",
+                            "power": "微风"
+                        }
+                    }
+                },
+                {
+                    "date": "2021-08-06",
+                    "pt": "2021-07-31 20:00",
+                    "day": {
+                        "weather": {
+                            "info": "晴",
+                            "img": "0",
+                            "temperature": "32"
+                        },
+                        "wind": {
+                            "direct": "北风",
+                            "power": "3~4级"
+                        }
+                    },
+                    "night": {
+                        "weather": {
+                            "info": "晴",
+                            "img": "0",
+                            "temperature": "23"
+                        },
+                        "wind": {
+                            "direct": "西北风",
+                            "power": "微风"
+                        }
+                    }
+                }
+            ]
+        },
+        "air": {
+            "forecasttime": "",
+            "aqi": "",
+            "aq": 9999,
+            "text": "-",
+            "aqiCode": ""
+        },
+        "tempchart": [
+            {
+                "time": "2021/07/24",
+                "max_temp": 33.9,
+                "min_temp": 25.7,
+                "day_img": "9999",
+                "day_text": "9999",
+                "night_img": "9999",
+                "night_text": "9999"
+            },
+            {
+                "time": "2021/07/25",
+                "max_temp": 34.8,
+                "min_temp": 26.7,
+                "day_img": "9999",
+                "day_text": "9999",
+                "night_img": "9999",
+                "night_text": "9999"
+            },
+            {
+                "time": "2021/07/26",
+                "max_temp": 34.5,
+                "min_temp": 27.0,
+                "day_img": "9999",
+                "day_text": "9999",
+                "night_img": "9999",
+                "night_text": "9999"
+            },
+            {
+                "time": "2021/07/27",
+                "max_temp": 30.9,
+                "min_temp": 24.6,
+                "day_img": "9999",
+                "day_text": "9999",
+                "night_img": "9999",
+                "night_text": "9999"
+            },
+            {
+                "time": "2021/07/28",
+                "max_temp": 30.1,
+                "min_temp": 24.6,
+                "day_img": "9999",
+                "day_text": "9999",
+                "night_img": "9999",
+                "night_text": "9999"
+            },
+            {
+                "time": "2021/07/29",
+                "max_temp": 25.2,
+                "min_temp": 20.2,
+                "day_img": "9999",
+                "day_text": "9999",
+                "night_img": "9999",
+                "night_text": "9999"
+            },
+            {
+                "time": "2021/07/30",
+                "max_temp": 30.0,
+                "min_temp": 21.0,
+                "day_img": "9999",
+                "day_text": "9999",
+                "night_img": "9999",
+                "night_text": "9999"
+            },
+            {
+                "time": "2021/07/31",
+                "max_temp": 9999.0,
+                "min_temp": 22.0,
+                "day_img": "9999",
+                "day_text": "9999",
+                "night_img": "8",
+                "night_text": "中雨"
+            },
+            {
+                "time": "2021/08/01",
+                "max_temp": 31.0,
+                "min_temp": 22.0,
+                "day_img": "1",
+                "day_text": "多云",
+                "night_img": "1",
+                "night_text": "多云"
+            },
+            {
+                "time": "2021/08/02",
+                "max_temp": 30.0,
+                "min_temp": 22.0,
+                "day_img": "1",
+                "day_text": "多云",
+                "night_img": "1",
+                "night_text": "多云"
+            },
+            {
+                "time": "2021/08/03",
+                "max_temp": 30.0,
+                "min_temp": 23.0,
+                "day_img": "2",
+                "day_text": "阴",
+                "night_img": "2",
+                "night_text": "阴"
+            },
+            {
+                "time": "2021/08/04",
+                "max_temp": 31.0,
+                "min_temp": 25.0,
+                "day_img": "4",
+                "day_text": "雷阵雨",
+                "night_img": "4",
+                "night_text": "雷阵雨"
+            },
+            {
+                "time": "2021/08/05",
+                "max_temp": 30.0,
+                "min_temp": 23.0,
+                "day_img": "2",
+                "day_text": "阴",
+                "night_img": "1",
+                "night_text": "多云"
+            },
+            {
+                "time": "2021/08/06",
+                "max_temp": 32.0,
+                "min_temp": 23.0,
+                "day_img": "0",
+                "day_text": "晴",
+                "night_img": "0",
+                "night_text": "晴"
+            }
+        ],
+        "passedchart": [
+            {
+                "rain1h": 0.0,
+                "rain24h": 9999.0,
+                "rain12h": 9999.0,
+                "rain6h": 9999.0,
+                "temperature": 28.1,
+                "tempDiff": "",
+                "humidity": 78.0,
+                "pressure": 993.0,
+                "windDirection": 16.0,
+                "windSpeed": 12.7,
+                "time": "2021-07-31 21:00"
+            },
+            {
+                "rain1h": 0.0,
+                "rain24h": 9999.0,
+                "rain12h": 9999.0,
+                "rain6h": 9999.0,
+                "temperature": 31.9,
+                "tempDiff": "",
+                "humidity": 82.0,
+                "pressure": 992.0,
+                "windDirection": 130.0,
+                "windSpeed": 2.0,
+                "time": "2021-07-31 20:00"
+            },
+            {
+                "rain1h": 0.0,
+                "rain24h": 9999.0,
+                "rain12h": 9999.0,
+                "rain6h": 9999.0,
+                "temperature": 32.9,
+                "tempDiff": "",
+                "humidity": 78.0,
+                "pressure": 993.0,
+                "windDirection": 140.0,
+                "windSpeed": 2.8,
+                "time": "2021-07-31 19:00"
+            },
+            {
+                "rain1h": 0.0,
+                "rain24h": 9999.0,
+                "rain12h": 9999.0,
+                "rain6h": 9999.0,
+                "temperature": 33.8,
+                "tempDiff": "",
+                "humidity": 73.0,
+                "pressure": 992.0,
+                "windDirection": 145.0,
+                "windSpeed": 2.0,
+                "time": "2021-07-31 18:00"
+            },
+            {
+                "rain1h": 0.0,
+                "rain24h": 9999.0,
+                "rain12h": 9999.0,
+                "rain6h": 9999.0,
+                "temperature": 34.2,
+                "tempDiff": "",
+                "humidity": 69.0,
+                "pressure": 992.0,
+                "windDirection": 150.0,
+                "windSpeed": 3.1,
+                "time": "2021-07-31 17:00"
+            },
+            {
+                "rain1h": 0.0,
+                "rain24h": 9999.0,
+                "rain12h": 9999.0,
+                "rain6h": 9999.0,
+                "temperature": 34.0,
+                "tempDiff": "",
+                "humidity": 70.0,
+                "pressure": 992.0,
+                "windDirection": 173.0,
+                "windSpeed": 2.5,
+                "time": "2021-07-31 16:00"
+            },
+            {
+                "rain1h": 0.0,
+                "rain24h": 9999.0,
+                "rain12h": 9999.0,
+                "rain6h": 9999.0,
+                "temperature": 34.0,
+                "tempDiff": "",
+                "humidity": 70.0,
+                "pressure": 992.0,
+                "windDirection": 171.0,
+                "windSpeed": 4.4,
+                "time": "2021-07-31 15:00"
+            },
+            {
+                "rain1h": 0.0,
+                "rain24h": 9999.0,
+                "rain12h": 9999.0,
+                "rain6h": 9999.0,
+                "temperature": 33.7,
+                "tempDiff": "",
+                "humidity": 69.0,
+                "pressure": 993.0,
+                "windDirection": 170.0,
+                "windSpeed": 5.5,
+                "time": "2021-07-31 14:00"
+            },
+            {
+                "rain1h": 0.0,
+                "rain24h": 9999.0,
+                "rain12h": 9999.0,
+                "rain6h": 9999.0,
+                "temperature": 33.1,
+                "tempDiff": "",
+                "humidity": 71.0,
+                "pressure": 993.0,
+                "windDirection": 166.0,
+                "windSpeed": 4.7,
+                "time": "2021-07-31 13:00"
+            },
+            {
+                "rain1h": 0.0,
+                "rain24h": 9999.0,
+                "rain12h": 9999.0,
+                "rain6h": 9999.0,
+                "temperature": 32.5,
+                "tempDiff": "",
+                "humidity": 72.0,
+                "pressure": 994.0,
+                "windDirection": 149.0,
+                "windSpeed": 4.3,
+                "time": "2021-07-31 12:00"
+            },
+            {
+                "rain1h": 0.0,
+                "rain24h": 9999.0,
+                "rain12h": 9999.0,
+                "rain6h": 9999.0,
+                "temperature": 32.0,
+                "tempDiff": "",
+                "humidity": 74.0,
+                "pressure": 994.0,
+                "windDirection": 163.0,
+                "windSpeed": 4.6,
+                "time": "2021-07-31 11:00"
+            },
+            {
+                "rain1h": 0.0,
+                "rain24h": 9999.0,
+                "rain12h": 9999.0,
+                "rain6h": 9999.0,
+                "temperature": 30.7,
+                "tempDiff": "",
+                "humidity": 76.0,
+                "pressure": 995.0,
+                "windDirection": 184.0,
+                "windSpeed": 2.9,
+                "time": "2021-07-31 10:00"
+            },
+            {
+                "rain1h": 0.0,
+                "rain24h": 9999.0,
+                "rain12h": 9999.0,
+                "rain6h": 9999.0,
+                "temperature": 29.6,
+                "tempDiff": "",
+                "humidity": 79.0,
+                "pressure": 995.0,
+                "windDirection": 171.0,
+                "windSpeed": 1.5,
+                "time": "2021-07-31 09:00"
+            },
+            {
+                "rain1h": 0.0,
+                "rain24h": 9999.0,
+                "rain12h": 9999.0,
+                "rain6h": 9999.0,
+                "temperature": 27.5,
+                "tempDiff": "",
+                "humidity": 84.0,
+                "pressure": 995.0,
+                "windDirection": 181.0,
+                "windSpeed": 2.3,
+                "time": "2021-07-31 08:00"
+            },
+            {
+                "rain1h": 0.0,
+                "rain24h": 9999.0,
+                "rain12h": 9999.0,
+                "rain6h": 9999.0,
+                "temperature": 25.3,
+                "tempDiff": "",
+                "humidity": 91.0,
+                "pressure": 995.0,
+                "windDirection": 217.0,
+                "windSpeed": 2.0,
+                "time": "2021-07-31 07:00"
+            },
+            {
+                "rain1h": 0.0,
+                "rain24h": 9999.0,
+                "rain12h": 9999.0,
+                "rain6h": 9999.0,
+                "temperature": 23.9,
+                "tempDiff": "",
+                "humidity": 95.0,
+                "pressure": 995.0,
+                "windDirection": 130.0,
+                "windSpeed": 0.9,
+                "time": "2021-07-31 06:00"
+            },
+            {
+                "rain1h": 0.0,
+                "rain24h": 9999.0,
+                "rain12h": 9999.0,
+                "rain6h": 9999.0,
+                "temperature": 24.0,
+                "tempDiff": "",
+                "humidity": 94.0,
+                "pressure": 994.0,
+                "windDirection": 213.0,
+                "windSpeed": 1.3,
+                "time": "2021-07-31 05:00"
+            },
+            {
+                "rain1h": 0.0,
+                "rain24h": 9999.0,
+                "rain12h": 9999.0,
+                "rain6h": 9999.0,
+                "temperature": 24.0,
+                "tempDiff": "",
+                "humidity": 92.0,
+                "pressure": 995.0,
+                "windDirection": 214.0,
+                "windSpeed": 1.2,
+                "time": "2021-07-31 04:00"
+            },
+            {
+                "rain1h": 0.0,
+                "rain24h": 9999.0,
+                "rain12h": 9999.0,
+                "rain6h": 9999.0,
+                "temperature": 24.0,
+                "tempDiff": "",
+                "humidity": 89.0,
+                "pressure": 995.0,
+                "windDirection": 208.0,
+                "windSpeed": 2.4,
+                "time": "2021-07-31 03:00"
+            },
+            {
+                "rain1h": 0.0,
+                "rain24h": 9999.0,
+                "rain12h": 9999.0,
+                "rain6h": 9999.0,
+                "temperature": 23.6,
+                "tempDiff": "",
+                "humidity": 93.0,
+                "pressure": 995.0,
+                "windDirection": 179.0,
+                "windSpeed": 1.4,
+                "time": "2021-07-31 02:00"
+            },
+            {
+                "rain1h": 0.0,
+                "rain24h": 9999.0,
+                "rain12h": 9999.0,
+                "rain6h": 9999.0,
+                "temperature": 23.7,
+                "tempDiff": "",
+                "humidity": 92.0,
+                "pressure": 995.0,
+                "windDirection": 135.0,
+                "windSpeed": 0.4,
+                "time": "2021-07-31 01:00"
+            },
+            {
+                "rain1h": 0.0,
+                "rain24h": 9999.0,
+                "rain12h": 9999.0,
+                "rain6h": 9999.0,
+                "temperature": 24.4,
+                "tempDiff": "",
+                "humidity": 87.0,
+                "pressure": 995.0,
+                "windDirection": 220.0,
+                "windSpeed": 0.3,
+                "time": "2021-07-31 00:00"
+            },
+            {
+                "rain1h": 0.0,
+                "rain24h": 9999.0,
+                "rain12h": 9999.0,
+                "rain6h": 9999.0,
+                "temperature": 24.6,
+                "tempDiff": "",
+                "humidity": 86.0,
+                "pressure": 995.0,
+                "windDirection": 221.0,
+                "windSpeed": 1.2,
+                "time": "2021-07-30 23:00"
+            },
+            {
+                "rain1h": 0.0,
+                "rain24h": 9999.0,
+                "rain12h": 9999.0,
+                "rain6h": 9999.0,
+                "temperature": 25.0,
+                "tempDiff": "",
+                "humidity": 84.0,
+                "pressure": 995.0,
+                "windDirection": 9999.0,
+                "windSpeed": 0.1,
+                "time": "2021-07-30 22:00"
+            }
+        ],
+        "climate": {
+            "time": "1981年-2010年",
+            "month": [
+                {
+                    "month": 1,
+                    "maxTemp": 2.7,
+                    "minTemp": -7.8,
+                    "precipitation": 2.6
+                },
+                {
+                    "month": 2,
+                    "maxTemp": 6.7,
+                    "minTemp": -4.5,
+                    "precipitation": 5.1
+                },
+                {
+                    "month": 3,
+                    "maxTemp": 13.2,
+                    "minTemp": 1.4,
+                    "precipitation": 10.3
+                },
+                {
+                    "month": 4,
+                    "maxTemp": 21.5,
+                    "minTemp": 8.8,
+                    "precipitation": 20.7
+                },
+                {
+                    "month": 5,
+                    "maxTemp": 27.3,
+                    "minTemp": 14.7,
+                    "precipitation": 34.9
+                },
+                {
+                    "month": 6,
+                    "maxTemp": 31.8,
+                    "minTemp": 19.8,
+                    "precipitation": 69.7
+                },
+                {
+                    "month": 7,
+                    "maxTemp": 32.0,
+                    "minTemp": 22.7,
+                    "precipitation": 176.6
+                },
+                {
+                    "month": 8,
+                    "maxTemp": 30.5,
+                    "minTemp": 21.5,
+                    "precipitation": 122.7
+                },
+                {
+                    "month": 9,
+                    "maxTemp": 26.9,
+                    "minTemp": 16.0,
+                    "precipitation": 38.2
+                },
+                {
+                    "month": 10,
+                    "maxTemp": 20.7,
+                    "minTemp": 9.1,
+                    "precipitation": 29.7
+                },
+                {
+                    "month": 11,
+                    "maxTemp": 11.4,
+                    "minTemp": 0.8,
+                    "precipitation": 10.7
+                },
+                {
+                    "month": 12,
+                    "maxTemp": 4.4,
+                    "minTemp": -5.3,
+                    "precipitation": 2.8
+                }
+            ]
+        },
+        "radar": {
+            "title": "华北",
+            "image": "/product/2021/07/31/RDCP/SEVP_AOC_RDCP_SLDAS_EBREF_ANCN_L88_PI_20210731135400001.PNG?v=1627740154370",
+            "url": "/publish/radar/huabei.html"
+        }
+    }
+}

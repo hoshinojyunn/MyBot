@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/plugins/weather_forcast/stationid/city_code.json" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/plugins/weather_forcast/stationid/city_data.json" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/plugins/weather_forcast/响应格式.json" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/plugins/weather_forcast/测试数据.json" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/plugins/weather_forcast/测试数据1.json" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/plugins/weather_forcast/测试数据2.json" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/plugins/weather_forcast/测试数据3.json" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/plugins/weather_forcast/相应格式.json" charset="GBK" />
+  </component>
+</project>

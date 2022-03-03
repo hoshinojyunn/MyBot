@@ -28,10 +28,11 @@ def main():
     nonebot.load_builtin_plugins()  # 加载nonebot内置插件
 
     nonebot.load_plugins('./src/plugins')
-    nonebot.load_plugins('./src/plugins/weather_query')  # 加载插件
+    # nonebot.load_plugins('./src/plugins/weather_query')  # 加载插件
     nonebot.load_plugins('./src/plugins/spider-master')
     nonebot.load_plugins('./src/plugins/EroPics')
     nonebot.load_plugins('./src/plugins/bf1')
+    
     nonebot.run()
 
 

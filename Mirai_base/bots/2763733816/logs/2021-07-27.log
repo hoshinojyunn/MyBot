@@ -1,0 +1,850 @@
+[0m2021-07-27 19:03:27 V/Net 2763733816: [BotSessionSyncer] No server list cached.[0m
+[92m2021-07-27 19:03:27 I/Net 2763733816: [ECDHInitialPublicKeyUpdater] ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2021-07-27 19:03:27 I/Net 2763733816: [ECDHInitialPublicKeyUpdater] Successfully fetched ecdh public key from server.[0m
+[0m2021-07-27 19:03:27 V/Net 2763733816: Send: wtlogin.login[0m
+[0m2021-07-27 19:03:28 V/Net 2763733816: Recv: wtlogin.login[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: wtlogin.login[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Recv: wtlogin.login[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: wtlogin.login[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Recv: wtlogin.login[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: StatSvc.register(online)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Recv: StatSvc.register[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: [BotSessionSyncer] No BdhSession cache[0m
+[92m2021-07-27 19:04:35 I/Net 2763733816: [MessageSvcSyncer] Syncing friend message history...[0m
+[92m2021-07-27 19:04:35 I/Net 2763733816: [ContactUpdater] Start loading friend list...[0m
+[92m2021-07-27 19:04:35 I/Net 2763733816: [ContactUpdater] Start loading stranger list...[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Recv: OidbSvc.0x496[0m
+[92m2021-07-27 19:04:35 I/Net 2763733816: [ContactUpdater] Start loading group list...[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Recv: OidbSvc.0x5d2_0[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2021-07-27 19:04:35 I/Net 2763733816: [ContactUpdater] Successfully loaded stranger list: 1 in total[0m
+[92m2021-07-27 19:04:35 I/Net 2763733816: [OtherClientUpdater] Online OtherClients: M2104K10AC(MOBILE), LAPTOP-BESSKY(WINDOWS)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[96m2021-07-27 19:04:35 D/Net 2763733816: unknown PbGetMsg type 47, data=33 74 A6 96 01 01 00 20 42 EA 00 00 00 0A 00 00 18 96 00 00 00 0A[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Recv: friendlist.GetTroopListReqV2[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Recv: friendlist.getFriendGroupList[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: [ContactUpdater] Loading friend list: 150/217[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: Recv: friendlist.getFriendGroupList[0m
+[0m2021-07-27 19:04:35 V/Net 2763733816: [ContactUpdater] Loading friend list: 217/217[0m
+[92m2021-07-27 19:04:35 I/Net 2763733816: [ContactUpdater] Successfully loaded friend list: 217 in total[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[92m2021-07-27 19:04:36 I/Net 2763733816: [MessageSvcSyncer] Syncing friend message history: Success.[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:36 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:37 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: Recv: ConfigPushSvc.PushReq[0m
+[92m2021-07-27 19:04:38 I/Net 2763733816: [ServerList] Server list: 60.28.172.62:8080, 157.255.13.227:443, 60.28.172.85:80, 221.198.69.96:80, 157.255.13.124:8080, 153.3.149.150:80, 61.181.203.29:80, msfwifi.3g.qq.com:8080, 153.3.50.180:14000, 153.3.149.252:8080.[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: [BotSessionSyncer] No BdhSession to save to cache[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: [BotSessionSyncer] Saving server list to cache[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: Recv: ConfigPushSvc.PushReq[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: [BotSessionSyncer] Saving bdh session to cache[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: Send: OidbSvc.0x899_9(OidbSvc.0x899_9)[0m
+[0m2021-07-27 19:04:38 V/Net 2763733816: Recv: OidbSvc.0x899_9[0m
+[92m2021-07-27 19:04:38 I/Net 2763733816: [ContactUpdater] Successfully loaded group list: 97 in total.[0m
+[92m2021-07-27 19:04:38 I/Net 2763733816: [KeyRefreshProcessor] Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2021-07-27 19:04:38 I/Net 2763733816: [KeyRefreshProcessor] Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[96m2021-07-27 19:05:05 D/Net 2763733816: Unknown Transformers732 0x10 optEnumType
+optEnumType=19
+content=NotifyMsgBody#141726549 {
+            optEnumType=0x00000013(19)
+            optMsgMediaPush=MediaChangePushInfo#1587457432 {
+                    groupId=0x000000003165B6F0(828749552)
+                    mediaType=0x00000001(1)
+                    msgSeq=0x0005C818D7B0C2E9(1627383907009257)
+                    msgType=0x0000000E(14)
+                    operUin=0x0000000000002710(10000)
+            }
+            optUint64GroupCode=0x000000003165B6F0(828749552)
+            optUint64MsgExpires=0x0000000000000000(0)
+            optUint64MsgTime=0x0000000000000000(0)
+            optUint64SenderUin=0x0000000000000000(0)
+            serviceType=0x00000011(17)
+    }[0m
+[0m2021-07-27 19:05:55 V/Net 2763733816: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-07-27 19:05:56 V/Net 2763733816: Recv: MessageSvc.PbSendMsg[0m
+[96m2021-07-27 19:07:07 D/Net 2763733816: Unknown Transformers732 0x10 optEnumType
+optEnumType=19
+content=NotifyMsgBody#141726549 {
+            optEnumType=0x00000013(19)
+            optMsgMediaPush=MediaChangePushInfo#1587457432 {
+                    groupId=0x0000000033FF54BD(872371389)
+                    joinNums=0x0000000B(11)
+                    mediaType=0x00000001(1)
+                    msgSeq=0x0005C818DEF64FC8(1627384029007816)
+                    msgType=0x0000001F(31)
+                    operUin=0x0000000029E1BC8B(702659723)
+            }
+            optUint64GroupCode=0x0000000033FF54BD(872371389)
+            optUint64MsgExpires=0x0000000000000000(0)
+            optUint64MsgTime=0x0000000000000000(0)
+            optUint64SenderUin=0x0000000000000000(0)
+            serviceType=0x00000011(17)
+    }[0m
+[96m2021-07-27 19:07:08 D/Net 2763733816: Unknown Transformers732 0x10 optEnumType
+optEnumType=19
+content=NotifyMsgBody#141726549 {
+            optEnumType=0x00000013(19)
+            optMsgMediaPush=MediaChangePushInfo#1587457432 {
+                    groupId=0x0000000033FF54BD(872371389)
+                    mediaType=0x00000001(1)
+                    msgSeq=0x0005C818DF059209(1627384030007817)
+                    msgType=0x0000000E(14)
+                    operUin=0x0000000000002710(10000)
+            }
+            optUint64GroupCode=0x0000000033FF54BD(872371389)
+            optUint64MsgExpires=0x0000000000000000(0)
+            optUint64MsgTime=0x0000000000000000(0)
+            optUint64SenderUin=0x0000000000000000(0)
+            serviceType=0x00000011(17)
+    }[0m
+[96m2021-07-27 19:07:09 D/Net 2763733816: Unknown Transformers732 0x10 optEnumType
+optEnumType=19
+content=NotifyMsgBody#141726549 {
+            optEnumType=0x00000013(19)
+            optMsgMediaPush=MediaChangePushInfo#1587457432 {
+                    groupId=0x0000000033FF54BD(872371389)
+                    joinNums=0x0000000A(10)
+                    mediaType=0x00000001(1)
+                    msgSeq=0x0005C818DF14D44A(1627384031007818)
+                    msgType=0x00000020(32)
+                    operUin=0x0000000029E1BC8B(702659723)
+            }
+            optUint64GroupCode=0x0000000033FF54BD(872371389)
+            optUint64MsgExpires=0x0000000000000000(0)
+            optUint64MsgTime=0x0000000000000000(0)
+            optUint64SenderUin=0x0000000000000000(0)
+            serviceType=0x00000011(17)
+    }[0m
+[96m2021-07-27 19:08:19 D/Net 2763733816: Unknown Transformers732 0x10 optEnumType
+optEnumType=19
+content=NotifyMsgBody#141726549 {
+            optEnumType=0x00000013(19)
+            optMsgMediaPush=MediaChangePushInfo#1587457432 {
+                    groupId=0x000000003165B6F0(828749552)
+                    mediaType=0x00000001(1)
+                    msgSeq=0x0005C818E340F76A(1627384101009258)
+                    msgType=0x0000000E(14)
+                    operUin=0x0000000000002710(10000)
+            }
+            optUint64GroupCode=0x000000003165B6F0(828749552)
+            optUint64MsgExpires=0x0000000000000000(0)
+            optUint64MsgTime=0x0000000000000000(0)
+            optUint64SenderUin=0x0000000000000000(0)
+            serviceType=0x00000011(17)
+    }[0m
+[96m2021-07-27 19:09:17 D/Net 2763733816: Unknown Transformers528 0x14 template
+templId=10036
+PermList=[TemplParam#1078466252 {
+            name=6D 71 71 5F 75 69 6E
+            value=31 37 39 38 37 31 36 31 32 36
+    }, TemplParam#1078466252 {
+            name=6D 71 71 5F 6E 69 63 6B
+            value=E5 A5 B3 E4 BB 86 E5 AD A6 E5 A7 90 7E E6 9F 8A E7 9C 9F E9 9B AA
+    }, TemplParam#1078466252 {
+            name=75 73 65 72 5F 73 69 67 6E
+            value=E4 BB 8A E6 97 A5 E7 AC AC 31 E4 B8 AA E6 89 93 E5 8D A1 20
+    }, TemplParam#1078466252 {
+            name=72 61 6E 6B 5F 69 6D 67
+            value=68 74 74 70 73 3A 2F 2F 71 7A 6F 6E 65 73 74 79 6C 65 2E 67 74 69 6D 67 2E 63 6E 2F 71 7A 6F 6E 65 2F 73 70 61 63 65 5F 69 74 65 6D 2F 6D 61 74 65 72 69 61 6C 2F 51 51 50 75 6E 63 68 49 6E 2F 6F 72 67 2F 34 2F 32 30 36 36 31 32 2F 31 5F 32 78 5F 63 70 79 2E 70 6E 67
+    }, TemplParam#1078466252 {
+            name=6A 75 6D 70 5F 75 72 6C
+            value=6D 71 71 61 70 69 3A 2F 2F 74 72 6F 6F 70 74 6F 67 65 74 68 65 72 2F 6F 70 65 6E 3F 73 72 63 5F 74 79 70 65 3D 69 6E 74 65 72 6E 61 6C 26 61 6D 70 3B 76 65 72 73 69 6F 6E 3D 31
+    }, TemplParam#1078466252 {
+            name=73 69 67 6E 5F 77 6F 72 64
+            value=20 E6 88 91 E4 B9 9F E8 A6 81 E6 89 93 E5 8D A1
+    }][0m
+[96m2021-07-27 19:10:51 D/Net 2763733816: Unknown Transformers732 0x10 optEnumType
+optEnumType=19
+content=NotifyMsgBody#141726549 {
+            optEnumType=0x00000013(19)
+            optMsgMediaPush=MediaChangePushInfo#1587457432 {
+                    groupId=0x0000000033FF54BD(872371389)
+                    mediaType=0x00000001(1)
+                    msgSeq=0x0005C818EC5047CB(1627384253007819)
+                    msgType=0x0000000E(14)
+                    operUin=0x0000000000002710(10000)
+            }
+            optUint64GroupCode=0x0000000033FF54BD(872371389)
+            optUint64MsgExpires=0x0000000000000000(0)
+            optUint64MsgTime=0x0000000000000000(0)
+            optUint64SenderUin=0x0000000000000000(0)
+            serviceType=0x00000011(17)
+    }[0m

@@ -1,0 +1,460 @@
+[0m2021-11-11 14:04:59 V/Net 2175399102: Loading server list from cache.[0m
+[92m2021-11-11 14:04:59 I/Net 2175399102: Server list: msfwifi.3g.qq.com:8080, 183.47.99.24:14000, 42.81.184.206:443, 14.22.3.35:8080, 42.81.192.181:443, 101.91.43.168:8080, 113.96.13.125:8080, 101.91.42.98:80, 42.81.183.253:8080, 42.81.184.206:80.[0m
+[92m2021-11-11 14:05:00 I/Net 2175399102: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2021-11-11 14:05:01 I/Net 2175399102: Successfully fetched ecdh public key from server.[0m
+[0m2021-11-11 14:05:01 V/Net 2175399102: Send: wtlogin.exchange_emp[0m
+[0m2021-11-11 14:05:01 V/Net 2175399102: Recv: wtlogin.exchange_emp[0m
+[0m2021-11-11 14:05:02 V/Net 2175399102: Send: StatSvc.register(online)[0m
+[0m2021-11-11 14:05:02 V/Net 2175399102: Recv: StatSvc.register[0m
+[92m2021-11-11 14:05:02 I/Net 2175399102: Syncing friend message history...[0m
+[0m2021-11-11 14:05:02 V/Net 2175399102: Loading BdhSession from cache file[0m
+[92m2021-11-11 14:05:02 I/Net 2175399102: Start loading friend list...[0m
+[0m2021-11-11 14:05:02 V/Net 2175399102: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[92m2021-11-11 14:05:02 I/Net 2175399102: Start loading stranger list...[0m
+[0m2021-11-11 14:05:02 V/Net 2175399102: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2021-11-11 14:05:02 V/Net 2175399102: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2021-11-11 14:05:02 V/Net 2175399102: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2021-11-11 14:05:02 V/Net 2175399102: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2021-11-11 14:05:02 V/Net 2175399102: Recv: OidbSvc.0x5d2_0[0m
+[92m2021-11-11 14:05:02 I/Net 2175399102: Successfully loaded stranger list: 0 in total[0m
+[92m2021-11-11 14:05:02 I/Net 2175399102: No OtherClient online.[0m
+[92m2021-11-11 14:05:02 I/Net 2175399102: Syncing friend message history: Success.[0m
+[0m2021-11-11 14:05:02 V/Net 2175399102: Recv: OidbSvc.0x496[0m
+[92m2021-11-11 14:05:02 I/Net 2175399102: Start loading group list...[0m
+[0m2021-11-11 14:05:02 V/Net 2175399102: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2021-11-11 14:05:02 V/Net 2175399102: Recv: friendlist.getFriendGroupList[0m
+[0m2021-11-11 14:05:02 V/Net 2175399102: Loading friend list: 3/3[0m
+[92m2021-11-11 14:05:02 I/Net 2175399102: Successfully loaded friend list: 3 in total[0m
+[0m2021-11-11 14:05:02 V/Net 2175399102: Recv: friendlist.GetTroopListReqV2[0m
+[0m2021-11-11 14:05:02 V/Net 2175399102: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-11-11 14:05:02 V/Net 2175399102: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-11-11 14:05:02 V/Net 2175399102: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-11-11 14:05:02 V/Net 2175399102: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-11-11 14:05:02 V/Net 2175399102: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-11-11 14:05:02 V/Net 2175399102: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2021-11-11 14:05:02 I/Net 2175399102: Successfully loaded group list: 3 in total.[0m
+[92m2021-11-11 14:05:02 I/Net 2175399102: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2021-11-11 14:05:02 I/Net 2175399102: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2021-11-11 14:05:05 V/Net 2175399102: Recv: ConfigPushSvc.PushReq[0m
+[0m2021-11-11 14:05:05 V/Net 2175399102: Recv: ConfigPushSvc.PushReq[0m
+[92m2021-11-11 14:05:05 I/Net 2175399102: Server list: 14.22.9.53:14000, 183.47.117.157:14000, 42.81.183.253:443, 14.22.5.202:8080, 114.222.112.229:80, 180.109.192.45:14000, 42.81.192.226:80, msfwifi.3g.qq.com:8080, 180.102.111.213:8080, 42.81.170.122:443.[0m
+[0m2021-11-11 14:05:05 V/Net 2175399102: Saving bdh session to cache[0m
+[0m2021-11-11 14:05:05 V/Net 2175399102: Saving server list to cache[0m
+[0m2021-11-11 14:05:05 V/Net 2175399102: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2021-11-11 14:05:05 V/Net 2175399102: Saving bdh session to cache[0m
+[0m2021-11-11 14:05:05 V/Net 2175399102: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2021-11-11 14:05:23 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 14:05:23 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 14:05:23 V/Net 2175399102: [Highway] Uploading group image to 42.81.184.252:443, size=586.28 KiB[0m
+[0m2021-11-11 14:05:24 V/Net 2175399102: [Highway] Uploading group image: succeed at 1064 KiB/s[0m
+[0m2021-11-11 14:05:24 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 14:05:25 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 14:05:38 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 14:05:38 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 14:05:38 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 14:05:38 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 14:05:52 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 14:05:52 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 14:05:52 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 14:05:52 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 14:07:35 V/Net 2175399102: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2021-11-11 14:08:27 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 14:08:27 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 14:08:27 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 14:08:28 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 14:08:40 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 14:08:40 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 14:08:40 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 14:08:41 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 14:11:44 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 14:11:44 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 14:11:44 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 14:11:45 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 14:12:16 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 14:12:16 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 14:12:16 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 14:12:17 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 14:15:26 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 14:15:26 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 14:15:26 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 14:15:27 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 14:22:58 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 14:22:58 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 14:22:58 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 14:22:59 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 16:19:57 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 16:19:58 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 16:19:58 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 16:19:58 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 16:22:13 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 16:22:13 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 16:22:13 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 16:22:14 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 16:22:28 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 16:22:28 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 16:22:28 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 16:22:29 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 16:22:31 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 16:22:32 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 16:22:32 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 16:22:32 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 16:23:07 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 16:23:07 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 16:23:07 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 16:23:08 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 16:23:34 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 16:23:34 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 16:23:34 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 16:23:35 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 16:23:35 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 16:23:35 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 16:23:35 V/Net 2175399102: [Highway] Uploading group image to 42.81.184.252:443, size=2494.37 KiB[0m
+[0m2021-11-11 16:23:36 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 16:23:36 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 16:23:36 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 16:23:36 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 16:23:36 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 16:23:36 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 16:23:37 V/Net 2175399102: [Highway] Uploading group image to 42.81.184.252:443, size=2494.37 KiB failed: java.lang.IllegalStateException: highway transfer failed, error 83[0m
+[0m2021-11-11 16:23:37 V/Net 2175399102: [Highway] Uploading group image to 183.47.99.109:8080, size=2494.37 KiB[0m
+[0m2021-11-11 16:23:37 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 16:23:37 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 16:23:37 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 16:23:37 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 16:23:37 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 16:23:38 V/Net 2175399102: [Highway] Uploading group image to 183.47.99.109:8080, size=2494.37 KiB failed: java.lang.IllegalStateException: highway transfer failed, error 83[0m
+[0m2021-11-11 16:23:38 V/Net 2175399102: [Highway] Uploading group image to 42.81.178.226:80, size=2494.37 KiB[0m
+[0m2021-11-11 16:23:38 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 16:23:38 V/Net 2175399102: [Highway] Uploading group image to 42.81.178.226:80, size=2494.37 KiB failed: java.lang.IllegalStateException: highway transfer failed, error 83[0m
+[0m2021-11-11 16:23:38 V/Net 2175399102: [Highway] Uploading group image to 180.109.192.65:443, size=2494.37 KiB[0m
+[0m2021-11-11 16:23:41 V/Net 2175399102: [Highway] Uploading group image to 180.109.192.65:443, size=2494.37 KiB failed: java.lang.IllegalStateException: highway transfer failed, error 83[0m
+[91m2021-11-11 16:53:03 W/Net 2175399102: HeartbeatFailedException: StatHeartbeat, recoverable=true, cause=PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+HeartbeatFailedException: StatHeartbeat, recoverable=true, cause=PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(NettyNetworkHandler.kt:361)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(NettyNetworkHandler.kt:361)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:251)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1.invoke(NettyNetworkHandler.kt:407)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1.invoke(NettyNetworkHandler.kt:360)
+	at net.mamoe.mirai.internal.network.components.TimeBasedHeartbeatSchedulerImpl$launchHeartbeatJobAsync$1.invokeSuspend(HeartbeatScheduler.kt:108)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+	... 13 more
+Caused by: kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms
+	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:186)
+	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:156)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:497)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:274)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:69)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[0m
+[0m2021-11-11 16:53:03 V/Net 2175399102: Loading server list from cache.[0m
+[92m2021-11-11 16:53:03 I/Net 2175399102: Server list: 14.22.9.53:14000, 183.47.117.157:14000, 42.81.183.253:443, 14.22.5.202:8080, 114.222.112.229:80, 180.109.192.45:14000, 42.81.192.226:80, msfwifi.3g.qq.com:8080, 180.102.111.213:8080, 42.81.170.122:443.[0m
+[92m2021-11-11 16:53:03 I/Net 2175399102: ECDH key is valid.[0m
+[0m2021-11-11 16:53:03 V/Net 2175399102: Send: wtlogin.exchange_emp[0m
+[0m2021-11-11 16:53:03 V/Net 2175399102: Recv: wtlogin.exchange_emp[0m
+[0m2021-11-11 16:53:03 V/Net 2175399102: Send: StatSvc.register(online)[0m
+[0m2021-11-11 16:53:03 V/Net 2175399102: Recv: StatSvc.register[0m
+[92m2021-11-11 16:53:03 I/Net 2175399102: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2021-11-11 16:53:03 I/Net 2175399102: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[0m2021-11-11 16:53:06 V/Net 2175399102: Recv: ConfigPushSvc.PushReq[0m
+[0m2021-11-11 16:53:06 V/Net 2175399102: Saving bdh session to cache[0m
+[0m2021-11-11 16:53:06 V/Net 2175399102: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2021-11-11 16:53:06 V/Net 2175399102: Recv: ConfigPushSvc.PushReq[0m
+[92m2021-11-11 16:53:06 I/Net 2175399102: Server list: 42.81.192.181:80, 113.96.13.79:14000, 114.222.112.229:8080, 101.91.42.98:14000, 49.7.253.214:443, 101.91.37.175:80, msfwifi.3g.qq.com:8080, 14.22.9.53:14000, 42.81.176.211:443, 125.94.60.148:8080.[0m
+[0m2021-11-11 16:53:06 V/Net 2175399102: Saving bdh session to cache[0m
+[0m2021-11-11 16:53:06 V/Net 2175399102: Saving server list to cache[0m
+[0m2021-11-11 16:53:06 V/Net 2175399102: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[91m2021-11-11 16:53:24 W/Net 2175399102: NettyChannelException(message=null, cause=java.net.SocketException: Connection reset)
+NettyChannelException(message=null, cause=java.net.SocketException: Connection reset)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$handlePipelineException$1.invoke(NettyNetworkHandler.kt:68)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$handlePipelineException$1.invoke(NettyNetworkHandler.kt:68)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:251)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler.handlePipelineException(NettyNetworkHandler.kt:418)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$setupChannelPipeline$1.exceptionCaught(NettyNetworkHandler.kt:109)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:302)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:281)
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:273)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:302)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:281)
+	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:125)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:177)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	... 8 more
+[0m
+[91m2021-11-11 16:53:24 W/Net 2175399102: io.netty.channel.AbstractChannel$AnnotatedSocketException: Network is unreachable: no further information: /157.255.13.77:14000
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Network is unreachable: no further information: /157.255.13.77:14000
+	Suppressed: kotlinx.coroutines.JobCancellationException: Parent job is Cancelling; job=JobImpl{Cancelled}@43d9dc34
+	Caused by: [CIRCULAR REFERENCE: io.netty.channel.AbstractChannel$AnnotatedSocketException: Network is unreachable: no further information: /157.255.13.77:14000]
+	Suppressed: [CIRCULAR REFERENCE: kotlinx.coroutines.JobCancellationException: Parent job is Cancelling; job=JobImpl{Cancelled}@43d9dc34]
+Caused by: java.net.SocketException: Network is unreachable: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[0m
+[0m2021-11-11 16:53:37 V/Net 2175399102: Loading server list from cache.[0m
+[92m2021-11-11 16:53:37 I/Net 2175399102: Server list: 42.81.192.181:80, 113.96.13.79:14000, 114.222.112.229:8080, 101.91.42.98:14000, 49.7.253.214:443, 101.91.37.175:80, msfwifi.3g.qq.com:8080, 14.22.9.53:14000, 42.81.176.211:443, 125.94.60.148:8080.[0m
+[92m2021-11-11 16:53:37 I/Net 2175399102: ECDH key is valid.[0m
+[0m2021-11-11 16:53:37 V/Net 2175399102: Send: wtlogin.exchange_emp[0m
+[0m2021-11-11 16:53:38 V/Net 2175399102: Recv: wtlogin.exchange_emp[0m
+[0m2021-11-11 16:53:38 V/Net 2175399102: Send: StatSvc.register(online)[0m
+[0m2021-11-11 16:53:38 V/Net 2175399102: Recv: StatSvc.register[0m
+[92m2021-11-11 16:53:38 I/Net 2175399102: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2021-11-11 16:53:38 I/Net 2175399102: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[0m2021-11-11 16:53:41 V/Net 2175399102: Recv: ConfigPushSvc.PushReq[0m
+[0m2021-11-11 16:53:41 V/Net 2175399102: Saving bdh session to cache[0m
+[0m2021-11-11 16:53:41 V/Net 2175399102: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2021-11-11 16:53:41 V/Net 2175399102: Recv: ConfigPushSvc.PushReq[0m
+[92m2021-11-11 16:53:41 I/Net 2175399102: Server list: 42.81.192.181:80, msfwifi.3g.qq.com:8080, 125.94.60.166:14000, 101.91.42.98:14000, 125.94.60.148:8080, 101.91.37.175:8080, 183.47.98.77:14000, 180.102.111.213:80, 42.81.184.206:443, 42.81.170.24:443.[0m
+[0m2021-11-11 16:53:41 V/Net 2175399102: Saving bdh session to cache[0m
+[0m2021-11-11 16:53:41 V/Net 2175399102: Saving server list to cache[0m
+[0m2021-11-11 16:53:41 V/Net 2175399102: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[91m2021-11-11 17:38:02 W/Net 2175399102: HeartbeatFailedException: StatHeartbeat, recoverable=true, cause=PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+HeartbeatFailedException: StatHeartbeat, recoverable=true, cause=PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(NettyNetworkHandler.kt:361)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(NettyNetworkHandler.kt:361)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:251)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1.invoke(NettyNetworkHandler.kt:407)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1.invoke(NettyNetworkHandler.kt:360)
+	at net.mamoe.mirai.internal.network.components.TimeBasedHeartbeatSchedulerImpl$launchHeartbeatJobAsync$1.invokeSuspend(HeartbeatScheduler.kt:108)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+	... 13 more
+Caused by: kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms
+	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:186)
+	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:156)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:497)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:274)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:69)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[0m
+[0m2021-11-11 17:38:02 V/Net 2175399102: Loading server list from cache.[0m
+[92m2021-11-11 17:38:02 I/Net 2175399102: Server list: 42.81.192.181:80, msfwifi.3g.qq.com:8080, 125.94.60.166:14000, 101.91.42.98:14000, 125.94.60.148:8080, 101.91.37.175:8080, 183.47.98.77:14000, 180.102.111.213:80, 42.81.184.206:443, 42.81.170.24:443.[0m
+[92m2021-11-11 17:38:02 I/Net 2175399102: ECDH key is valid.[0m
+[0m2021-11-11 17:38:02 V/Net 2175399102: Send: wtlogin.exchange_emp[0m
+[0m2021-11-11 17:38:02 V/Net 2175399102: Recv: wtlogin.exchange_emp[0m
+[0m2021-11-11 17:38:02 V/Net 2175399102: Send: StatSvc.register(online)[0m
+[0m2021-11-11 17:38:02 V/Net 2175399102: Recv: StatSvc.register[0m
+[92m2021-11-11 17:38:02 I/Net 2175399102: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2021-11-11 17:38:02 I/Net 2175399102: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[0m2021-11-11 17:38:05 V/Net 2175399102: Recv: ConfigPushSvc.PushReq[0m
+[92m2021-11-11 17:38:05 I/Net 2175399102: Server list: msfwifi.3g.qq.com:8080, 180.102.111.105:80, 42.81.184.206:80, 183.47.98.11:14000, 101.91.42.98:14000, 114.221.144.89:8080, 42.81.183.253:443, 14.22.5.202:8080, 14.22.9.84:14000, 42.81.169.100:443.[0m
+[0m2021-11-11 17:38:05 V/Net 2175399102: Saving bdh session to cache[0m
+[0m2021-11-11 17:38:05 V/Net 2175399102: Saving server list to cache[0m
+[0m2021-11-11 17:38:05 V/Net 2175399102: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2021-11-11 17:38:05 V/Net 2175399102: Recv: ConfigPushSvc.PushReq[0m
+[0m2021-11-11 17:38:05 V/Net 2175399102: Saving bdh session to cache[0m
+[0m2021-11-11 17:38:05 V/Net 2175399102: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2021-11-11 17:56:45 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 17:56:45 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 17:56:45 V/Net 2175399102: [Highway] Uploading group image to 42.81.184.180:443, size=1197.5 KiB[0m
+[0m2021-11-11 17:56:46 V/Net 2175399102: [Highway] Uploading group image to 42.81.184.180:443, size=1197.5 KiB failed: java.lang.IllegalStateException: highway transfer failed, error 83[0m
+[0m2021-11-11 17:56:46 V/Net 2175399102: [Highway] Uploading group image to 183.47.98.80:8080, size=1197.5 KiB[0m
+[0m2021-11-11 17:56:46 V/Net 2175399102: [Highway] Uploading group image to 183.47.98.80:8080, size=1197.5 KiB failed: java.lang.IllegalStateException: highway transfer failed, error 83[0m
+[0m2021-11-11 17:56:46 V/Net 2175399102: [Highway] Uploading group image to 42.81.184.252:80, size=1197.5 KiB[0m
+[0m2021-11-11 17:56:47 V/Net 2175399102: [Highway] Uploading group image to 42.81.184.252:80, size=1197.5 KiB failed: java.lang.IllegalStateException: highway transfer failed, error 83[0m
+[0m2021-11-11 17:56:47 V/Net 2175399102: [Highway] Uploading group image to 180.110.193.191:443, size=1197.5 KiB[0m
+[0m2021-11-11 17:56:48 V/Net 2175399102: [Highway] Uploading group image to 180.110.193.191:443, size=1197.5 KiB failed: java.lang.IllegalStateException: highway transfer failed, error 83[0m
+[0m2021-11-11 17:57:50 V/Net 2175399102: Loading server list from cache.[0m
+[92m2021-11-11 17:57:50 I/Net 2175399102: Server list: msfwifi.3g.qq.com:8080, 180.102.111.105:80, 42.81.184.206:80, 183.47.98.11:14000, 101.91.42.98:14000, 114.221.144.89:8080, 42.81.183.253:443, 14.22.5.202:8080, 14.22.9.84:14000, 42.81.169.100:443.[0m
+[92m2021-11-11 17:57:51 I/Net 2175399102: ECDH key is valid.[0m
+[0m2021-11-11 17:57:52 V/Net 2175399102: Send: wtlogin.exchange_emp[0m
+[0m2021-11-11 17:57:52 V/Net 2175399102: Recv: wtlogin.exchange_emp[0m
+[0m2021-11-11 17:57:52 V/Net 2175399102: Send: StatSvc.register(online)[0m
+[0m2021-11-11 17:57:52 V/Net 2175399102: Recv: StatSvc.register[0m
+[0m2021-11-11 17:57:52 V/Net 2175399102: Loading BdhSession from cache file[0m
+[92m2021-11-11 17:57:52 I/Net 2175399102: Syncing friend message history...[0m
+[92m2021-11-11 17:57:52 I/Net 2175399102: Start loading friend list...[0m
+[92m2021-11-11 17:57:52 I/Net 2175399102: Start loading stranger list...[0m
+[0m2021-11-11 17:57:52 V/Net 2175399102: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2021-11-11 17:57:52 V/Net 2175399102: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2021-11-11 17:57:52 V/Net 2175399102: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2021-11-11 17:57:52 V/Net 2175399102: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[92m2021-11-11 17:57:52 I/Net 2175399102: Syncing friend message history: Success.[0m
+[0m2021-11-11 17:57:52 V/Net 2175399102: Recv: OidbSvc.0x5d2_0[0m
+[92m2021-11-11 17:57:52 I/Net 2175399102: Successfully loaded stranger list: 0 in total[0m
+[0m2021-11-11 17:57:52 V/Net 2175399102: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2021-11-11 17:57:52 I/Net 2175399102: No OtherClient online.[0m
+[0m2021-11-11 17:57:52 V/Net 2175399102: Recv: OidbSvc.0x496[0m
+[92m2021-11-11 17:57:52 I/Net 2175399102: Start loading group list...[0m
+[0m2021-11-11 17:57:52 V/Net 2175399102: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2021-11-11 17:57:52 V/Net 2175399102: Recv: friendlist.getFriendGroupList[0m
+[0m2021-11-11 17:57:52 V/Net 2175399102: Loading friend list: 3/3[0m
+[92m2021-11-11 17:57:52 I/Net 2175399102: Successfully loaded friend list: 3 in total[0m
+[0m2021-11-11 17:57:52 V/Net 2175399102: Recv: friendlist.GetTroopListReqV2[0m
+[0m2021-11-11 17:57:52 V/Net 2175399102: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-11-11 17:57:52 V/Net 2175399102: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-11-11 17:57:52 V/Net 2175399102: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2021-11-11 17:57:53 V/Net 2175399102: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-11-11 17:57:53 V/Net 2175399102: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2021-11-11 17:57:53 V/Net 2175399102: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2021-11-11 17:57:53 I/Net 2175399102: Successfully loaded group list: 3 in total.[0m
+[92m2021-11-11 17:57:53 I/Net 2175399102: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2021-11-11 17:57:53 I/Net 2175399102: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2021-11-11 17:57:55 V/Net 2175399102: Recv: ConfigPushSvc.PushReq[0m
+[92m2021-11-11 17:57:55 I/Net 2175399102: Server list: 183.47.99.24:14000, msfwifi.3g.qq.com:8080, 49.7.253.45:443, 180.163.212.164:14000, 180.102.111.105:80, 42.81.183.253:443, 42.81.183.253:80, 183.47.98.77:8080, 180.109.192.45:8080, 183.47.98.25:14000.[0m
+[0m2021-11-11 17:57:55 V/Net 2175399102: Saving bdh session to cache[0m
+[0m2021-11-11 17:57:55 V/Net 2175399102: Saving server list to cache[0m
+[0m2021-11-11 17:57:55 V/Net 2175399102: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2021-11-11 17:57:55 V/Net 2175399102: Recv: ConfigPushSvc.PushReq[0m
+[0m2021-11-11 17:57:55 V/Net 2175399102: Saving bdh session to cache[0m
+[0m2021-11-11 17:57:55 V/Net 2175399102: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2021-11-11 17:58:03 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 17:58:03 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 17:58:03 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 17:58:04 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 17:58:18 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 17:58:18 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 17:58:18 V/Net 2175399102: [Highway] Uploading group image to 42.81.184.123:443, size=3291.22 KiB[0m
+[0m2021-11-11 17:58:20 V/Net 2175399102: [Highway] Uploading group image: succeed at 1715 KiB/s[0m
+[0m2021-11-11 17:58:20 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 17:58:21 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 17:58:42 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 17:58:43 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 17:58:43 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 17:58:43 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 17:59:00 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 17:59:00 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 17:59:00 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 17:59:01 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 17:59:03 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 17:59:03 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 17:59:03 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 17:59:03 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 17:59:26 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 17:59:26 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 17:59:26 V/Net 2175399102: [Highway] Uploading group image to 42.81.184.123:443, size=1143.4 KiB[0m
+[0m2021-11-11 17:59:27 V/Net 2175399102: [Highway] Uploading group image: succeed at 1518 KiB/s[0m
+[0m2021-11-11 17:59:27 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 17:59:28 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 17:59:50 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 17:59:50 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 17:59:50 V/Net 2175399102: [Highway] Uploading group image to 42.81.184.123:443, size=3240.44 KiB[0m
+[0m2021-11-11 17:59:52 V/Net 2175399102: [Highway] Uploading group image: succeed at 1674 KiB/s[0m
+[0m2021-11-11 17:59:52 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 17:59:53 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 18:00:32 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 18:00:32 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 18:00:32 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 18:00:32 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 18:00:35 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 18:00:35 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 18:00:35 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 18:00:36 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 18:00:36 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 18:00:36 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 18:00:36 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 18:00:37 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 19:15:58 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 19:15:58 V/Net 2175399102: [Highway] Uploading group image to 42.81.184.123:443, size=586.71 KiB[0m
+[0m2021-11-11 19:15:58 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 19:15:59 V/Net 2175399102: [Highway] Uploading group image: succeed at 774 KiB/s[0m
+[0m2021-11-11 19:15:59 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 19:16:00 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 19:16:16 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 19:16:16 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 19:16:16 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 19:16:17 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 19:16:26 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 19:16:26 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 19:16:26 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 19:16:27 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 19:22:46 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 19:22:46 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 19:22:46 V/Net 2175399102: [Highway] Uploading group image to 42.81.184.123:443, size=203.71 KiB[0m
+[0m2021-11-11 19:22:47 V/Net 2175399102: [Highway] Uploading group image: succeed at 326 KiB/s[0m
+[0m2021-11-11 19:22:47 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 19:22:47 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 19:22:59 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 19:22:59 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 19:22:59 V/Net 2175399102: [Highway] Uploading group image to 42.81.184.123:443, size=429.71 KiB[0m
+[0m2021-11-11 19:22:59 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 19:22:59 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 19:22:59 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 19:22:59 V/Net 2175399102: [Highway] Uploading group image to 42.81.184.123:443, size=429.71 KiB failed: java.lang.IllegalStateException: highway transfer failed, error 83[0m
+[0m2021-11-11 19:22:59 V/Net 2175399102: [Highway] Uploading group image to 183.2.143.16:8080, size=429.71 KiB[0m
+[0m2021-11-11 19:23:00 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 19:23:00 V/Net 2175399102: [Highway] Uploading group image to 183.2.143.16:8080, size=429.71 KiB failed: java.lang.IllegalStateException: highway transfer failed, error 83[0m
+[0m2021-11-11 19:23:00 V/Net 2175399102: [Highway] Uploading group image to 42.81.184.180:80, size=429.71 KiB[0m
+[0m2021-11-11 19:23:00 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 19:23:00 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 19:23:00 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 19:23:00 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 19:23:00 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 19:23:00 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 19:23:01 V/Net 2175399102: [Highway] Uploading group image to 42.81.184.180:80, size=429.71 KiB failed: java.lang.IllegalStateException: highway transfer failed, error 83[0m
+[0m2021-11-11 19:23:01 V/Net 2175399102: [Highway] Uploading group image to 180.102.111.81:443, size=429.71 KiB[0m
+[0m2021-11-11 19:23:01 V/Net 2175399102: [Highway] Uploading group image to 180.102.111.81:443, size=429.71 KiB failed: java.lang.IllegalStateException: highway transfer failed, error 83[0m
+[0m2021-11-11 19:23:01 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 19:23:02 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 19:23:02 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 19:23:02 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 19:23:02 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 19:23:02 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 19:23:02 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 19:23:02 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 19:23:03 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 19:23:03 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 19:23:14 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 19:23:14 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 19:23:14 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 19:23:14 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 19:24:39 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 19:24:39 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 19:24:39 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 19:24:39 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 19:24:41 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 19:24:41 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 19:24:41 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 19:24:42 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-11-11 20:52:45 V/Net 2175399102: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2021-11-11 20:52:45 V/Net 2175399102: Recv: ImgStore.GroupPicUp[0m
+[0m2021-11-11 20:52:45 V/Net 2175399102: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-11-11 20:52:46 V/Net 2175399102: Recv: MessageSvc.PbSendMsg[0m

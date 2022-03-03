@@ -1,0 +1,1231 @@
+[91m2021-09-30 02:02:28 W/: HeartbeatFailedException: AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+HeartbeatFailedException: AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(NettyNetworkHandler.kt:361)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(NettyNetworkHandler.kt:361)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:251)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1.invoke(NettyNetworkHandler.kt:407)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1.invoke(NettyNetworkHandler.kt:360)
+	at net.mamoe.mirai.internal.network.components.TimeBasedHeartbeatSchedulerImpl$launchHeartbeatJobAsync$1.invokeSuspend(HeartbeatScheduler.kt:108)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+	... 13 more
+Caused by: kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms
+	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:186)
+	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:156)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:497)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:274)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:69)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[0m
+[91m2021-09-30 02:02:28 W/: io.netty.channel.AbstractChannel$AnnotatedNoRouteToHostException: No route to host: no further information: /157.255.13.77:14000
+io.netty.channel.AbstractChannel$AnnotatedNoRouteToHostException: No route to host: no further information: /157.255.13.77:14000
+	Suppressed: kotlinx.coroutines.JobCancellationException: Parent job is Cancelling; job=JobImpl{Cancelled}@29d128e5
+	Caused by: [CIRCULAR REFERENCE: io.netty.channel.AbstractChannel$AnnotatedNoRouteToHostException: No route to host: no further information: /157.255.13.77:14000]
+	Suppressed: [CIRCULAR REFERENCE: kotlinx.coroutines.JobCancellationException: Parent job is Cancelling; job=JobImpl{Cancelled}@29d128e5]
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[0m
+[91m2021-09-30 10:05:09 W/: java.net.UnknownHostException: 不知道这样的主机。 (msfwifi.3g.qq.com)
+java.net.UnknownHostException: 不知道这样的主机。 (msfwifi.3g.qq.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1519)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301)
+	at java.base/java.net.InetAddress.getByName(InetAddress.java:1251)
+	at io.netty.util.internal.SocketUtils$8.run(SocketUtils.java:156)
+	at io.netty.util.internal.SocketUtils$8.run(SocketUtils.java:153)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at io.netty.util.internal.SocketUtils.addressByName(SocketUtils.java:153)
+	at io.netty.resolver.DefaultNameResolver.doResolve(DefaultNameResolver.java:41)
+	at io.netty.resolver.SimpleNameResolver.resolve(SimpleNameResolver.java:61)
+	at io.netty.resolver.SimpleNameResolver.resolve(SimpleNameResolver.java:53)
+	at io.netty.resolver.InetSocketAddressResolver.doResolve(InetSocketAddressResolver.java:55)
+	at io.netty.resolver.InetSocketAddressResolver.doResolve(InetSocketAddressResolver.java:31)
+	at io.netty.resolver.AbstractAddressResolver.resolve(AbstractAddressResolver.java:106)
+	at io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:206)
+	at io.netty.bootstrap.Bootstrap.access$000(Bootstrap.java:46)
+	at io.netty.bootstrap.Bootstrap$1.operationComplete(Bootstrap.java:180)
+	at io.netty.bootstrap.Bootstrap$1.operationComplete(Bootstrap.java:166)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:552)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:605)
+	at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:104)
+	at io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.safeSetSuccess(AbstractChannel.java:1012)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:516)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:429)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:486)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	Suppressed: kotlinx.coroutines.JobCancellationException: Parent job is Cancelling; job=JobImpl{Cancelled}@5f8fa727
+	Caused by: [CIRCULAR REFERENCE: java.net.UnknownHostException: 不知道这样的主机。 (msfwifi.3g.qq.com)]
+	Suppressed: [CIRCULAR REFERENCE: kotlinx.coroutines.JobCancellationException: Parent job is Cancelling; job=JobImpl{Cancelled}@5f8fa727]
+[0m
+[0m2021-09-30 10:05:41 V/: Loading server list from cache.[0m
+[92m2021-09-30 10:05:41 I/: Server list: 114.221.151.171:80, msfwifi.3g.qq.com:8080, 113.96.12.217:8080, 125.94.60.146:8080, 114.221.148.192:8080, 42.81.170.51:443, 125.94.60.175:14000, 42.81.172.147:80, 42.81.184.82:443, 42.81.184.69:443.[0m
+[92m2021-09-30 10:05:41 I/: ECDH key is valid.[0m
+[0m2021-09-30 10:05:41 V/: Send: wtlogin.exchange_emp[0m
+[0m2021-09-30 10:05:41 V/: Recv: wtlogin.exchange_emp[0m
+[0m2021-09-30 10:05:41 V/: Send: StatSvc.register(online)[0m
+[0m2021-09-30 10:05:41 V/: Recv: StatSvc.register[0m
+[92m2021-09-30 10:05:41 I/: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2021-09-30 10:05:41 I/: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[0m2021-09-30 10:05:44 V/: Recv: ConfigPushSvc.PushReq[0m
+[92m2021-09-30 10:05:44 I/: Server list: 180.102.110.55:80, 42.81.170.24:443, 42.81.192.211:80, 114.221.148.59:443, 114.221.148.168:8080, 42.81.169.46:443, 113.96.13.87:8080, 42.81.192.232:443, 14.22.3.122:14000, msfwifi.3g.qq.com:8080.[0m
+[0m2021-09-30 10:05:44 V/: Saving bdh session to cache[0m
+[0m2021-09-30 10:05:44 V/: Saving server list to cache[0m
+[0m2021-09-30 10:05:44 V/: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2021-09-30 10:05:44 V/: Recv: ConfigPushSvc.PushReq[0m
+[0m2021-09-30 10:05:44 V/: Saving bdh session to cache[0m
+[0m2021-09-30 10:05:44 V/: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2021-09-30 10:06:43 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-09-30 10:06:44 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-09-30 10:07:14 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-09-30 10:07:15 V/: Recv: MessageSvc.PbSendMsg[0m
+[96m2021-09-30 10:08:02 D/: Unknown Transformers528 0x14 template
+templId=10064
+PermList=[TemplParam#1240573457 {
+            name=69 6E 76 69 74 65 5F 71 71 5F 6E 69 63 6B
+            value=E5 B7 9D E4 B8 8B E5 8D 97 E7 BD B2 E5 A7 94 E5 91 98 E9 95 BF
+    }, TemplParam#1240573457 {
+            name=6D 71 71 5F 6E 69 63 6B 31
+            value=E7 99 BD E7 81 B5
+    }][0m
+[0m2021-09-30 10:09:46 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-09-30 10:09:46 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2021-09-30 10:10:28 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2021-09-30 10:10:28 V/: Recv: MessageSvc.PbSendMsg[0m
+[91m2021-09-30 10:12:47 W/: HeartbeatFailedException: AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+HeartbeatFailedException: AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(NettyNetworkHandler.kt:361)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(NettyNetworkHandler.kt:361)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:251)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1.invoke(NettyNetworkHandler.kt:407)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1.invoke(NettyNetworkHandler.kt:360)
+	at net.mamoe.mirai.internal.network.components.TimeBasedHeartbeatSchedulerImpl$launchHeartbeatJobAsync$1.invokeSuspend(HeartbeatScheduler.kt:108)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+	... 13 more
+Caused by: kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms
+	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:186)
+	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:156)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:497)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:274)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:69)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[0m
+[91m2021-09-30 10:12:47 W/: io.netty.channel.AbstractChannel$AnnotatedNoRouteToHostException: No route to host: no further information: /42.81.184.82:443
+io.netty.channel.AbstractChannel$AnnotatedNoRouteToHostException: No route to host: no further information: /42.81.184.82:443
+	Suppressed: kotlinx.coroutines.JobCancellationException: Parent job is Cancelling; job=JobImpl{Cancelled}@30da4938
+	Caused by: [CIRCULAR REFERENCE: io.netty.channel.AbstractChannel$AnnotatedNoRouteToHostException: No route to host: no further information: /42.81.184.82:443]
+	Suppressed: [CIRCULAR REFERENCE: kotlinx.coroutines.JobCancellationException: Parent job is Cancelling; job=JobImpl{Cancelled}@30da4938]
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[0m
+[91m2021-09-30 10:13:22 W/: java.net.UnknownHostException: 不知道这样的主机。 (msfwifi.3g.qq.com)
+java.net.UnknownHostException: 不知道这样的主机。 (msfwifi.3g.qq.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1519)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301)
+	at java.base/java.net.InetAddress.getByName(InetAddress.java:1251)
+	at io.netty.util.internal.SocketUtils$8.run(SocketUtils.java:156)
+	at io.netty.util.internal.SocketUtils$8.run(SocketUtils.java:153)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at io.netty.util.internal.SocketUtils.addressByName(SocketUtils.java:153)
+	at io.netty.resolver.DefaultNameResolver.doResolve(DefaultNameResolver.java:41)
+	at io.netty.resolver.SimpleNameResolver.resolve(SimpleNameResolver.java:61)
+	at io.netty.resolver.SimpleNameResolver.resolve(SimpleNameResolver.java:53)
+	at io.netty.resolver.InetSocketAddressResolver.doResolve(InetSocketAddressResolver.java:55)
+	at io.netty.resolver.InetSocketAddressResolver.doResolve(InetSocketAddressResolver.java:31)
+	at io.netty.resolver.AbstractAddressResolver.resolve(AbstractAddressResolver.java:106)
+	at io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:206)
+	at io.netty.bootstrap.Bootstrap.access$000(Bootstrap.java:46)
+	at io.netty.bootstrap.Bootstrap$1.operationComplete(Bootstrap.java:180)
+	at io.netty.bootstrap.Bootstrap$1.operationComplete(Bootstrap.java:166)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:552)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:605)
+	at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:104)
+	at io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.safeSetSuccess(AbstractChannel.java:1012)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:516)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:429)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:486)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	Suppressed: kotlinx.coroutines.JobCancellationException: Parent job is Cancelling; job=JobImpl{Cancelled}@398340cc
+	Caused by: [CIRCULAR REFERENCE: java.net.UnknownHostException: 不知道这样的主机。 (msfwifi.3g.qq.com)]
+	Suppressed: [CIRCULAR REFERENCE: kotlinx.coroutines.JobCancellationException: Parent job is Cancelling; job=JobImpl{Cancelled}@398340cc]
+[0m
+[0m2021-09-30 10:50:27 V/: Loading server list from cache.[0m
+[92m2021-09-30 10:50:27 I/: Server list: 180.102.110.55:80, 42.81.170.24:443, 42.81.192.211:80, 114.221.148.59:443, 114.221.148.168:8080, 42.81.169.46:443, 113.96.13.87:8080, 42.81.192.232:443, 14.22.3.122:14000, msfwifi.3g.qq.com:8080.[0m
+[92m2021-09-30 10:50:27 I/: ECDH key is valid.[0m
+[0m2021-09-30 10:50:27 V/: Send: wtlogin.exchange_emp[0m
+[31m2021-09-30 10:50:29 E/: Exception in decoding packet.
+java.lang.IllegalStateException: Cannot find error message, unknown login result type: 180, TLVMap = {0x00000161(353)=00 01 01 72 00 18 1A 62 C9 31 EB 10 D5 58 63 B9 F3 16 0F 0F 7F 39 3A F7 68 E5 7E EE D2 A7}
+	at net.mamoe.mirai.internal.network.protocol.packet.login.WtLogin$Login.decode(WtLogin.kt:188)
+	at net.mamoe.mirai.internal.network.protocol.packet.login.WtLogin$ExchangeEmp.decode(WtLogin.kt:546)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.processBody(PacketCodec.kt:370)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$PacketDecodePipeline$2$1.invokeSuspend(NettyNetworkHandler.kt:183)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+[0m
+[0m2021-09-30 10:50:29 V/: Send: wtlogin.login[0m
+[0m2021-09-30 10:50:29 V/: Recv: wtlogin.login[0m
+[0m2021-09-30 10:50:29 V/: Send: wtlogin.login[0m
+[0m2021-09-30 10:50:29 V/: Recv: wtlogin.login[0m
+[0m2021-09-30 10:50:29 V/: Send: StatSvc.register(online)[0m
+[0m2021-09-30 10:50:29 V/: Recv: StatSvc.register[0m
+[92m2021-09-30 10:50:29 I/: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2021-09-30 10:50:29 I/: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[0m2021-09-30 10:50:32 V/: Recv: ConfigPushSvc.PushReq[0m
+[0m2021-09-30 10:50:32 V/: Saving bdh session to cache[0m
+[0m2021-09-30 10:50:32 V/: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2021-09-30 10:50:32 V/: Recv: ConfigPushSvc.PushReq[0m
+[92m2021-09-30 10:50:32 I/: Server list: 180.102.110.122:8080, 113.96.13.79:14000, 42.81.170.40:443, 180.102.110.73:80, 42.81.172.22:80, 42.81.172.207:443, 114.221.148.14:443, 14.22.5.202:8080, msfwifi.3g.qq.com:8080, 42.81.172.22:443.[0m
+[0m2021-09-30 10:50:32 V/: Saving bdh session to cache[0m
+[0m2021-09-30 10:50:32 V/: Saving server list to cache[0m
+[0m2021-09-30 10:50:32 V/: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[91m2021-09-30 10:56:35 W/: HeartbeatFailedException: AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+HeartbeatFailedException: AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(NettyNetworkHandler.kt:361)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(NettyNetworkHandler.kt:361)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:251)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1.invoke(NettyNetworkHandler.kt:407)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1.invoke(NettyNetworkHandler.kt:360)
+	at net.mamoe.mirai.internal.network.components.TimeBasedHeartbeatSchedulerImpl$launchHeartbeatJobAsync$1.invokeSuspend(HeartbeatScheduler.kt:108)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+	... 13 more
+Caused by: kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms
+	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:186)
+	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:156)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:497)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:274)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:69)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[0m
+[0m2021-09-30 10:56:37 V/: Loading server list from cache.[0m
+[92m2021-09-30 10:56:37 I/: Server list: 180.102.110.122:8080, 113.96.13.79:14000, 42.81.170.40:443, 180.102.110.73:80, 42.81.172.22:80, 42.81.172.207:443, 114.221.148.14:443, 14.22.5.202:8080, msfwifi.3g.qq.com:8080, 42.81.172.22:443.[0m
+[92m2021-09-30 10:56:37 I/: ECDH key is valid.[0m
+[0m2021-09-30 10:56:37 V/: Send: wtlogin.exchange_emp[0m
+[0m2021-09-30 10:56:42 V/: Send: wtlogin.exchange_emp[0m
+[0m2021-09-30 10:56:43 V/: Recv: wtlogin.exchange_emp[0m
+[0m2021-09-30 10:56:43 V/: Send: StatSvc.register(online)[0m
+[31m2021-09-30 10:56:46 E/: Exception in decoding packet.
+net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException
+	at net.mamoe.mirai.internal.utils.crypto.TEA.fail(TEA.kt:300)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.doOption$decrypt(TEA.kt:276)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.doOption(TEA.kt:296)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.decrypt(TEA.kt:320)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.decrypt$default(TEA.kt:319)
+	at net.mamoe.mirai.internal.network.protocol.packet.login.WtLogin$Login.onLoginSuccess(WtLogin.kt:256)
+	at net.mamoe.mirai.internal.network.protocol.packet.login.WtLogin$Login.decode(WtLogin.kt:181)
+	at net.mamoe.mirai.internal.network.protocol.packet.login.WtLogin$ExchangeEmp.decode(WtLogin.kt:546)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.processBody(PacketCodec.kt:370)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$PacketDecodePipeline$2$1.invokeSuspend(NettyNetworkHandler.kt:183)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+[0m
+[0m2021-09-30 10:56:46 V/: Recv: StatSvc.register[0m
+[92m2021-09-30 10:56:46 I/: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2021-09-30 10:56:46 I/: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2021-09-30 10:56:50 V/: Recv: ConfigPushSvc.PushReq[0m
+[92m2021-09-30 10:56:50 I/: Server list: 113.96.13.208:8080, 42.81.170.17:443, 42.81.184.101:443, 101.91.37.175:8080, 14.22.9.53:14000, 42.81.184.82:443, 114.221.148.67:443, msfwifi.3g.qq.com:8080, 42.81.184.69:80, 180.102.110.41:80.[0m
+[0m2021-09-30 10:56:50 V/: Saving bdh session to cache[0m
+[0m2021-09-30 10:56:50 V/: Saving server list to cache[0m
+[0m2021-09-30 10:56:50 V/: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2021-09-30 10:56:50 V/: Recv: ConfigPushSvc.PushReq[0m
+[0m2021-09-30 10:56:50 V/: Saving bdh session to cache[0m
+[0m2021-09-30 10:56:50 V/: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[91m2021-09-30 11:04:59 W/: HeartbeatFailedException: AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+HeartbeatFailedException: AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(NettyNetworkHandler.kt:361)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(NettyNetworkHandler.kt:361)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:251)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1.invoke(NettyNetworkHandler.kt:407)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1.invoke(NettyNetworkHandler.kt:360)
+	at net.mamoe.mirai.internal.network.components.TimeBasedHeartbeatSchedulerImpl$launchHeartbeatJobAsync$1.invokeSuspend(HeartbeatScheduler.kt:108)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+	... 13 more
+Caused by: kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms
+	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:186)
+	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:156)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:497)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:274)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:69)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[0m
+[0m2021-09-30 11:05:01 V/: Loading server list from cache.[0m
+[92m2021-09-30 11:05:01 I/: Server list: 113.96.13.208:8080, 42.81.170.17:443, 42.81.184.101:443, 101.91.37.175:8080, 14.22.9.53:14000, 42.81.184.82:443, 114.221.148.67:443, msfwifi.3g.qq.com:8080, 42.81.184.69:80, 180.102.110.41:80.[0m
+[92m2021-09-30 11:05:01 I/: ECDH key is valid.[0m
+[0m2021-09-30 11:05:01 V/: Send: wtlogin.exchange_emp[0m
+[0m2021-09-30 11:05:06 V/: Send: wtlogin.exchange_emp[0m
+[0m2021-09-30 11:05:11 V/: Send: wtlogin.login[0m
+[0m2021-09-30 11:05:16 V/: Send: wtlogin.login[0m
+[0m2021-09-30 11:05:18 V/: Recv: wtlogin.exchange_emp[0m
+[91m2021-09-30 11:05:21 W/: kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms
+kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms
+	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:186)
+	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:156)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:497)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:274)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:69)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[0m
+[31m2021-09-30 11:05:22 E/: Exception in decoding packet.
+net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException
+	at net.mamoe.mirai.internal.utils.crypto.TEA.fail(TEA.kt:300)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.doOption$decrypt(TEA.kt:276)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.doOption(TEA.kt:296)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.decrypt(TEA.kt:320)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.decrypt$default(TEA.kt:319)
+	at net.mamoe.mirai.internal.network.protocol.packet.login.WtLogin$Login.onLoginSuccess(WtLogin.kt:256)
+	at net.mamoe.mirai.internal.network.protocol.packet.login.WtLogin$Login.decode(WtLogin.kt:181)
+	at net.mamoe.mirai.internal.network.protocol.packet.login.WtLogin$ExchangeEmp.decode(WtLogin.kt:546)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.processBody(PacketCodec.kt:370)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$PacketDecodePipeline$2$1.invokeSuspend(NettyNetworkHandler.kt:183)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+[0m
+[0m2021-09-30 11:05:31 V/: Recv: wtlogin.login[0m
+[0m2021-09-30 11:05:32 V/: Recv: wtlogin.login[0m
+[91m2021-09-30 11:05:35 W/: java.net.UnknownHostException: 不知道这样的主机。 (msfwifi.3g.qq.com)
+java.net.UnknownHostException: 不知道这样的主机。 (msfwifi.3g.qq.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1519)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301)
+	at java.base/java.net.InetAddress.getByName(InetAddress.java:1251)
+	at io.netty.util.internal.SocketUtils$8.run(SocketUtils.java:156)
+	at io.netty.util.internal.SocketUtils$8.run(SocketUtils.java:153)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at io.netty.util.internal.SocketUtils.addressByName(SocketUtils.java:153)
+	at io.netty.resolver.DefaultNameResolver.doResolve(DefaultNameResolver.java:41)
+	at io.netty.resolver.SimpleNameResolver.resolve(SimpleNameResolver.java:61)
+	at io.netty.resolver.SimpleNameResolver.resolve(SimpleNameResolver.java:53)
+	at io.netty.resolver.InetSocketAddressResolver.doResolve(InetSocketAddressResolver.java:55)
+	at io.netty.resolver.InetSocketAddressResolver.doResolve(InetSocketAddressResolver.java:31)
+	at io.netty.resolver.AbstractAddressResolver.resolve(AbstractAddressResolver.java:106)
+	at io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:206)
+	at io.netty.bootstrap.Bootstrap.access$000(Bootstrap.java:46)
+	at io.netty.bootstrap.Bootstrap$1.operationComplete(Bootstrap.java:180)
+	at io.netty.bootstrap.Bootstrap$1.operationComplete(Bootstrap.java:166)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:552)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:605)
+	at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:104)
+	at io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.safeSetSuccess(AbstractChannel.java:1012)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:516)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:429)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:486)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	Suppressed: kotlinx.coroutines.JobCancellationException: Parent job is Cancelling; job=JobImpl{Cancelled}@4933dbe3
+	Caused by: [CIRCULAR REFERENCE: java.net.UnknownHostException: 不知道这样的主机。 (msfwifi.3g.qq.com)]
+	Suppressed: [CIRCULAR REFERENCE: kotlinx.coroutines.JobCancellationException: Parent job is Cancelling; job=JobImpl{Cancelled}@4933dbe3]
+[0m
+[0m2021-09-30 11:05:39 V/: Loading server list from cache.[0m
+[92m2021-09-30 11:05:39 I/: Server list: 113.96.13.208:8080, 42.81.170.17:443, 42.81.184.101:443, 101.91.37.175:8080, 14.22.9.53:14000, 42.81.184.82:443, 114.221.148.67:443, msfwifi.3g.qq.com:8080, 42.81.184.69:80, 180.102.110.41:80.[0m
+[92m2021-09-30 11:05:39 I/: ECDH key is valid.[0m
+[0m2021-09-30 11:05:39 V/: Send: wtlogin.exchange_emp[0m
+[0m2021-09-30 11:05:44 V/: Send: wtlogin.exchange_emp[0m
+[0m2021-09-30 11:05:49 V/: Send: wtlogin.login[0m
+[0m2021-09-30 11:05:54 V/: Send: wtlogin.login[0m
+[0m2021-09-30 11:06:02 V/: Recv: wtlogin.exchange_emp[0m
+[0m2021-09-30 11:06:02 V/: Loading server list from cache.[0m
+[92m2021-09-30 11:06:02 I/: Server list: 113.96.13.208:8080, 42.81.170.17:443, 42.81.184.101:443, 101.91.37.175:8080, 14.22.9.53:14000, 42.81.184.82:443, 114.221.148.67:443, msfwifi.3g.qq.com:8080, 42.81.184.69:80, 180.102.110.41:80.[0m
+[92m2021-09-30 11:06:02 I/: ECDH key is valid.[0m
+[0m2021-09-30 11:06:02 V/: Send: wtlogin.exchange_emp[0m
+[0m2021-09-30 11:06:02 V/: Send: wtlogin.login[0m
+[91m2021-09-30 11:06:02 W/: NettyChannelException(message=null, cause=java.net.SocketException: Connection reset)
+NettyChannelException(message=null, cause=java.net.SocketException: Connection reset)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$handlePipelineException$1.invoke(NettyNetworkHandler.kt:68)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$handlePipelineException$1.invoke(NettyNetworkHandler.kt:68)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:251)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler.handlePipelineException(NettyNetworkHandler.kt:418)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$setupChannelPipeline$1.exceptionCaught(NettyNetworkHandler.kt:109)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:302)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:281)
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:273)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:302)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:281)
+	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:125)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:177)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	... 8 more
+[0m
+[91m2021-09-30 11:06:06 W/: io.netty.channel.AbstractChannel$AnnotatedSocketException: Network is unreachable: no further information: /42.81.184.101:443
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Network is unreachable: no further information: /42.81.184.101:443
+	Suppressed: kotlinx.coroutines.JobCancellationException: Parent job is Cancelling; job=JobImpl{Cancelled}@35289e1d
+	Caused by: [CIRCULAR REFERENCE: io.netty.channel.AbstractChannel$AnnotatedSocketException: Network is unreachable: no further information: /42.81.184.101:443]
+	Suppressed: [CIRCULAR REFERENCE: kotlinx.coroutines.JobCancellationException: Parent job is Cancelling; job=JobImpl{Cancelled}@35289e1d]
+Caused by: java.net.SocketException: Network is unreachable: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[0m
+[0m2021-09-30 11:06:09 V/: Loading server list from cache.[0m
+[92m2021-09-30 11:06:09 I/: Server list: 113.96.13.208:8080, 42.81.170.17:443, 42.81.184.101:443, 101.91.37.175:8080, 14.22.9.53:14000, 42.81.184.82:443, 114.221.148.67:443, msfwifi.3g.qq.com:8080, 42.81.184.69:80, 180.102.110.41:80.[0m
+[92m2021-09-30 11:06:09 I/: ECDH key is valid.[0m
+[0m2021-09-30 11:06:09 V/: Send: wtlogin.exchange_emp[0m
+[0m2021-09-30 11:06:14 V/: Send: wtlogin.exchange_emp[0m
+[0m2021-09-30 11:06:19 V/: Send: wtlogin.login[0m
+[0m2021-09-30 11:06:24 V/: Send: wtlogin.login[0m
+[0m2021-09-30 11:06:29 V/: Recv: wtlogin.exchange_emp[0m
+[0m2021-09-30 11:06:32 V/: Loading server list from cache.[0m
+[92m2021-09-30 11:06:32 I/: Server list: 113.96.13.208:8080, 42.81.170.17:443, 42.81.184.101:443, 101.91.37.175:8080, 14.22.9.53:14000, 42.81.184.82:443, 114.221.148.67:443, msfwifi.3g.qq.com:8080, 42.81.184.69:80, 180.102.110.41:80.[0m
+[92m2021-09-30 11:06:32 I/: ECDH key is valid.[0m
+[0m2021-09-30 11:06:32 V/: Send: wtlogin.exchange_emp[0m
+[0m2021-09-30 11:06:37 V/: Send: wtlogin.exchange_emp[0m
+[0m2021-09-30 11:06:42 V/: Send: wtlogin.login[0m
+[31m2021-09-30 11:06:46 E/: Exception in coroutine 'unnamed'
+ExceptionInPacketCodecException(cause=net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler.handleExceptionInDecoding(NettyNetworkHandler.kt:63)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$ByteBufToIncomingPacketDecoder.channelRead0(NettyNetworkHandler.kt:85)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$ByteBufToIncomingPacketDecoder.channelRead0(NettyNetworkHandler.kt:75)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException
+	at net.mamoe.mirai.internal.utils.crypto.TEA.fail(TEA.kt:300)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.doOption$decrypt(TEA.kt:276)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.doOption(TEA.kt:296)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.decrypt(TEA.kt:320)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseOicqResponse(PacketCodec.kt:240)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:108)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$ByteBufToIncomingPacketDecoder.channelRead0(NettyNetworkHandler.kt:82)
+	... 23 more
+	Suppressed: net.mamoe.mirai.internal.network.components.OicqDecodingException
+	Caused by: [CIRCULAR REFERENCE: net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException]
+[0m
+[31m2021-09-30 11:06:47 E/: Exception in coroutine 'unnamed'
+ExceptionInPacketCodecException(cause=net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler.handleExceptionInDecoding(NettyNetworkHandler.kt:63)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$ByteBufToIncomingPacketDecoder.channelRead0(NettyNetworkHandler.kt:85)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$ByteBufToIncomingPacketDecoder.channelRead0(NettyNetworkHandler.kt:75)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException
+	at net.mamoe.mirai.internal.utils.crypto.TEA.fail(TEA.kt:300)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.doOption$decrypt(TEA.kt:276)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.doOption(TEA.kt:296)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.decrypt(TEA.kt:320)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseOicqResponse(PacketCodec.kt:240)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:108)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$ByteBufToIncomingPacketDecoder.channelRead0(NettyNetworkHandler.kt:82)
+	... 23 more
+	Suppressed: net.mamoe.mirai.internal.network.components.OicqDecodingException
+	Caused by: [CIRCULAR REFERENCE: net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException]
+[0m
+[0m2021-09-30 11:06:47 V/: Send: wtlogin.login[0m
+[31m2021-09-30 11:06:49 E/: Exception in coroutine 'unnamed'
+ExceptionInPacketCodecException(cause=net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler.handleExceptionInDecoding(NettyNetworkHandler.kt:63)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$ByteBufToIncomingPacketDecoder.channelRead0(NettyNetworkHandler.kt:85)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$ByteBufToIncomingPacketDecoder.channelRead0(NettyNetworkHandler.kt:75)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException
+	at net.mamoe.mirai.internal.utils.crypto.TEA.fail(TEA.kt:300)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.doOption$decrypt(TEA.kt:276)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.doOption(TEA.kt:296)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.decrypt(TEA.kt:320)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseOicqResponse(PacketCodec.kt:240)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:108)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$ByteBufToIncomingPacketDecoder.channelRead0(NettyNetworkHandler.kt:82)
+	... 23 more
+	Suppressed: net.mamoe.mirai.internal.network.components.OicqDecodingException
+	Caused by: [CIRCULAR REFERENCE: net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException]
+[0m
+[0m2021-09-30 11:06:59 V/: Loading server list from cache.[0m
+[92m2021-09-30 11:06:59 I/: Server list: 113.96.13.208:8080, 42.81.170.17:443, 42.81.184.101:443, 101.91.37.175:8080, 14.22.9.53:14000, 42.81.184.82:443, 114.221.148.67:443, msfwifi.3g.qq.com:8080, 42.81.184.69:80, 180.102.110.41:80.[0m
+[92m2021-09-30 11:06:59 I/: ECDH key is valid.[0m
+[0m2021-09-30 11:06:59 V/: Send: wtlogin.exchange_emp[0m
+[0m2021-09-30 11:07:04 V/: Send: wtlogin.exchange_emp[0m
+[0m2021-09-30 11:07:09 V/: Send: wtlogin.login[0m
+[0m2021-09-30 11:07:14 V/: Send: wtlogin.login[0m
+[0m2021-09-30 11:07:27 V/: Loading server list from cache.[0m
+[92m2021-09-30 11:07:27 I/: Server list: 113.96.13.208:8080, 42.81.170.17:443, 42.81.184.101:443, 101.91.37.175:8080, 14.22.9.53:14000, 42.81.184.82:443, 114.221.148.67:443, msfwifi.3g.qq.com:8080, 42.81.184.69:80, 180.102.110.41:80.[0m
+[92m2021-09-30 11:07:27 I/: ECDH key is valid.[0m
+[0m2021-09-30 11:07:27 V/: Send: wtlogin.exchange_emp[0m
+[0m2021-09-30 11:07:32 V/: Send: wtlogin.exchange_emp[0m
+[31m2021-09-30 11:07:36 E/: Exception in coroutine 'unnamed'
+ExceptionInPacketCodecException(cause=net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler.handleExceptionInDecoding(NettyNetworkHandler.kt:63)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$ByteBufToIncomingPacketDecoder.channelRead0(NettyNetworkHandler.kt:85)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$ByteBufToIncomingPacketDecoder.channelRead0(NettyNetworkHandler.kt:75)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException
+	at net.mamoe.mirai.internal.utils.crypto.TEA.fail(TEA.kt:300)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.doOption$decrypt(TEA.kt:276)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.doOption(TEA.kt:296)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.decrypt(TEA.kt:320)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseOicqResponse(PacketCodec.kt:240)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:108)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$ByteBufToIncomingPacketDecoder.channelRead0(NettyNetworkHandler.kt:82)
+	... 23 more
+	Suppressed: net.mamoe.mirai.internal.network.components.OicqDecodingException
+	Caused by: [CIRCULAR REFERENCE: net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException]
+[0m
+[0m2021-09-30 11:07:37 V/: Send: wtlogin.login[0m
+[0m2021-09-30 11:07:39 V/: Recv: wtlogin.exchange_emp[0m
+[31m2021-09-30 11:07:40 E/: Exception in coroutine 'unnamed'
+ExceptionInPacketCodecException(cause=net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler.handleExceptionInDecoding(NettyNetworkHandler.kt:63)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$ByteBufToIncomingPacketDecoder.channelRead0(NettyNetworkHandler.kt:85)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$ByteBufToIncomingPacketDecoder.channelRead0(NettyNetworkHandler.kt:75)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException
+	at net.mamoe.mirai.internal.utils.crypto.TEA.fail(TEA.kt:300)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.doOption$decrypt(TEA.kt:276)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.doOption(TEA.kt:296)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.decrypt(TEA.kt:320)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseOicqResponse(PacketCodec.kt:240)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:108)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$ByteBufToIncomingPacketDecoder.channelRead0(NettyNetworkHandler.kt:82)
+	... 23 more
+	Suppressed: net.mamoe.mirai.internal.network.components.OicqDecodingException
+	Caused by: [CIRCULAR REFERENCE: net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException]
+[0m
+[31m2021-09-30 11:07:40 E/: Exception in coroutine 'unnamed'
+ExceptionInPacketCodecException(cause=net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler.handleExceptionInDecoding(NettyNetworkHandler.kt:63)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$ByteBufToIncomingPacketDecoder.channelRead0(NettyNetworkHandler.kt:85)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$ByteBufToIncomingPacketDecoder.channelRead0(NettyNetworkHandler.kt:75)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException
+	at net.mamoe.mirai.internal.utils.crypto.TEA.fail(TEA.kt:300)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.doOption$decrypt(TEA.kt:276)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.doOption(TEA.kt:296)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.decrypt(TEA.kt:320)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseOicqResponse(PacketCodec.kt:240)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:108)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$ByteBufToIncomingPacketDecoder.channelRead0(NettyNetworkHandler.kt:82)
+	... 23 more
+	Suppressed: net.mamoe.mirai.internal.network.components.OicqDecodingException
+	Caused by: [CIRCULAR REFERENCE: net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException]
+[0m
+[31m2021-09-30 11:07:40 E/: Exception in decoding packet.
+net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException
+	at net.mamoe.mirai.internal.utils.crypto.TEA.fail(TEA.kt:300)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.doOption$decrypt(TEA.kt:276)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.doOption(TEA.kt:296)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.decrypt(TEA.kt:320)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.decrypt$default(TEA.kt:319)
+	at net.mamoe.mirai.internal.network.protocol.packet.login.WtLogin$Login.onLoginSuccess(WtLogin.kt:256)
+	at net.mamoe.mirai.internal.network.protocol.packet.login.WtLogin$Login.decode(WtLogin.kt:181)
+	at net.mamoe.mirai.internal.network.protocol.packet.login.WtLogin$ExchangeEmp.decode(WtLogin.kt:546)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.processBody(PacketCodec.kt:370)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$PacketDecodePipeline$2$1.invokeSuspend(NettyNetworkHandler.kt:183)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+[0m
+[31m2021-09-30 11:07:40 E/: Exception in coroutine 'unnamed'
+ExceptionInPacketCodecException(cause=net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler.handleExceptionInDecoding(NettyNetworkHandler.kt:63)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$ByteBufToIncomingPacketDecoder.channelRead0(NettyNetworkHandler.kt:85)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$ByteBufToIncomingPacketDecoder.channelRead0(NettyNetworkHandler.kt:75)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException
+	at net.mamoe.mirai.internal.utils.crypto.TEA.fail(TEA.kt:300)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.doOption$decrypt(TEA.kt:276)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.doOption(TEA.kt:296)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.decrypt(TEA.kt:320)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseOicqResponse(PacketCodec.kt:240)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:108)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$ByteBufToIncomingPacketDecoder.channelRead0(NettyNetworkHandler.kt:82)
+	... 23 more
+	Suppressed: net.mamoe.mirai.internal.network.components.OicqDecodingException
+	Caused by: [CIRCULAR REFERENCE: net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException]
+[0m
+[0m2021-09-30 11:07:40 V/: Recv: wtlogin.login[0m
+[0m2021-09-30 11:07:40 V/: Send: wtlogin.login[0m
+[0m2021-09-30 11:07:41 V/: Recv: wtlogin.login[0m
+[0m2021-09-30 11:07:41 V/: Send: StatSvc.register(online)[0m
+[0m2021-09-30 11:07:41 V/: Recv: StatSvc.register[0m
+[92m2021-09-30 11:07:41 I/: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2021-09-30 11:07:41 I/: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2021-09-30 11:07:44 V/: Recv: ConfigPushSvc.PushReq[0m
+[92m2021-09-30 11:07:44 I/: Server list: 42.81.184.74:80, 180.102.110.41:8080, 113.96.13.87:8080, msfwifi.3g.qq.com:8080, 183.47.99.24:14000, 42.81.192.181:443, 42.81.172.22:443, 180.102.110.73:80, 114.221.148.179:443, 42.81.172.215:443.[0m
+[0m2021-09-30 11:07:44 V/: Saving bdh session to cache[0m
+[0m2021-09-30 11:07:44 V/: Saving server list to cache[0m
+[0m2021-09-30 11:07:44 V/: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2021-09-30 11:07:44 V/: Recv: ConfigPushSvc.PushReq[0m
+[0m2021-09-30 11:07:44 V/: Saving bdh session to cache[0m
+[0m2021-09-30 11:07:44 V/: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[96m2021-09-30 11:19:46 D/: Unknown Transformers528 0x14 template
+templId=1052
+PermList=[TemplParam#1240573457 {
+            name=68 6F 6E 6F 72 5F 69 6D 67
+            value=68 74 74 70 73 3A 2F 2F 71 7A 6F 6E 65 73 74 79 6C 65 2E 67 74 69 6D 67 2E 63 6E 2F 61 6F 69 2F 73 6F 6C 61 2F 32 30 32 30 30 32 31 37 31 32 31 35 33 36 5F 6F 43 66 4A 72 4B 39 47 78 57 2E 70 6E 67
+    }, TemplParam#1240573457 {
+            name=68 6F 6E 6F 72 5F 69 6D 67 5F 32
+            value=68 74 74 70 73 3A 2F 2F 71 7A 6F 6E 65 73 74 79 6C 65 2E 67 74 69 6D 67 2E 63 6E 2F 61 6F 69 2F 73 6F 6C 61 2F 32 30 32 30 30 32 31 37 31 32 31 36 30 36 5F 6B 75 74 51 39 64 68 47 37 39 2E 70 6E 67
+    }, TemplParam#1240573457 {
+            name=68 6F 6E 6F 72 5F 75 72 6C
+            value=68 74 74 70 73 3A 2F 2F 71 75 6E 2E 71 71 2E 63 6F 6D 2F 69 6E 74 65 72 61 63 74 69 76 65 2F 71 75 6E 68 6F 6E 6F 72 3F 67 63 3D 38 31 30 32 30 33 35 33 37 26 61 6D 70 3B 5F 77 76 3D 33 26 61 6D 70 3B 5F 77 77 76 3D 31 32 38
+    }, TemplParam#1240573457 {
+            name=68 6F 6E 6F 72 5F 75 72 6C 5F 32
+            value=68 74 74 70 73 3A 2F 2F 71 75 6E 2E 71 71 2E 63 6F 6D 2F 69 6E 74 65 72 61 63 74 69 76 65 2F 71 75 6E 68 6F 6E 6F 72 3F 67 63 3D 38 31 30 32 30 33 35 33 37 26 61 6D 70 3B 5F 77 76 3D 33 26 61 6D 70 3B 5F 77 77 76 3D 31 32 38
+    }, TemplParam#1240573457 {
+            name=6E 69 63 6B
+            value=49 4D 75 72 4B
+    }, TemplParam#1240573457 {
+            name=75 69 6E
+            value=35 36 32 35 37 36 31 34 36
+    }, TemplParam#1240573457 {
+            name=75 69 6E 5F 75 72 6C
+            value=6D 71 71 61 70 69 3A 2F 2F 63 61 72 64 2F 73 68 6F 77 5F 70 73 6C 63 61 72 64 3F 63 61 72 64 5F 74 79 70 65 3D 74 72 6F 6F 70 6D 65 6D 62 65 72 26 61 6D 70 3B 75 69 6E 3D 35 36 32 35 37 36 31 34 36 26 61 6D 70 3B 74 72 6F 6F 70 63 6F 64 65 3D 38 31 30 32 30 33 35 33 37 26 61 6D 70 3B 73 72 63 5F 74 79 70 65 3D 69 6E 74 65 72 6E 61 6C 26 61 6D 70 3B 76 65 72 73 69 6F 6E 3D 31
+    }][0m
+[91m2021-09-30 11:32:56 W/: HeartbeatFailedException: AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+HeartbeatFailedException: AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(NettyNetworkHandler.kt:361)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(NettyNetworkHandler.kt:361)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:251)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1.invoke(NettyNetworkHandler.kt:407)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1.invoke(NettyNetworkHandler.kt:360)
+	at net.mamoe.mirai.internal.network.components.TimeBasedHeartbeatSchedulerImpl$launchHeartbeatJobAsync$1.invokeSuspend(HeartbeatScheduler.kt:108)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+	... 13 more
+Caused by: kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms
+	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:186)
+	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:156)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:497)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:274)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:69)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[0m
+[91m2021-09-30 11:32:56 W/: java.net.UnknownHostException: 不知道这样的主机。 (msfwifi.3g.qq.com)
+java.net.UnknownHostException: 不知道这样的主机。 (msfwifi.3g.qq.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1519)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301)
+	at java.base/java.net.InetAddress.getByName(InetAddress.java:1251)
+	at io.netty.util.internal.SocketUtils$8.run(SocketUtils.java:156)
+	at io.netty.util.internal.SocketUtils$8.run(SocketUtils.java:153)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at io.netty.util.internal.SocketUtils.addressByName(SocketUtils.java:153)
+	at io.netty.resolver.DefaultNameResolver.doResolve(DefaultNameResolver.java:41)
+	at io.netty.resolver.SimpleNameResolver.resolve(SimpleNameResolver.java:61)
+	at io.netty.resolver.SimpleNameResolver.resolve(SimpleNameResolver.java:53)
+	at io.netty.resolver.InetSocketAddressResolver.doResolve(InetSocketAddressResolver.java:55)
+	at io.netty.resolver.InetSocketAddressResolver.doResolve(InetSocketAddressResolver.java:31)
+	at io.netty.resolver.AbstractAddressResolver.resolve(AbstractAddressResolver.java:106)
+	at io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:206)
+	at io.netty.bootstrap.Bootstrap.access$000(Bootstrap.java:46)
+	at io.netty.bootstrap.Bootstrap$1.operationComplete(Bootstrap.java:180)
+	at io.netty.bootstrap.Bootstrap$1.operationComplete(Bootstrap.java:166)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:552)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:605)
+	at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:104)
+	at io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.safeSetSuccess(AbstractChannel.java:1012)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:516)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:429)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:486)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	Suppressed: kotlinx.coroutines.JobCancellationException: Parent job is Cancelling; job=JobImpl{Cancelled}@f73ca04
+	Caused by: [CIRCULAR REFERENCE: java.net.UnknownHostException: 不知道这样的主机。 (msfwifi.3g.qq.com)]
+	Suppressed: [CIRCULAR REFERENCE: kotlinx.coroutines.JobCancellationException: Parent job is Cancelling; job=JobImpl{Cancelled}@f73ca04]
+[0m
+[0m2021-09-30 11:32:59 V/: Loading server list from cache.[0m
+[92m2021-09-30 11:32:59 I/: Server list: 42.81.184.74:80, 180.102.110.41:8080, 113.96.13.87:8080, msfwifi.3g.qq.com:8080, 183.47.99.24:14000, 42.81.192.181:443, 42.81.172.22:443, 180.102.110.73:80, 114.221.148.179:443, 42.81.172.215:443.[0m
+[92m2021-09-30 11:32:59 I/: ECDH key is valid.[0m
+[0m2021-09-30 11:32:59 V/: Send: wtlogin.exchange_emp[0m
+[0m2021-09-30 11:33:04 V/: Send: wtlogin.exchange_emp[0m
+[0m2021-09-30 11:33:09 V/: Send: wtlogin.login[0m
+[0m2021-09-30 11:33:14 V/: Send: wtlogin.login[0m
+[91m2021-09-30 11:33:19 W/: kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms
+kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms
+	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:186)
+	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:156)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:497)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:274)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:69)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[0m
+[0m2021-09-30 11:33:22 V/: Loading server list from cache.[0m
+[92m2021-09-30 11:33:22 I/: Server list: 42.81.184.74:80, 180.102.110.41:8080, 113.96.13.87:8080, msfwifi.3g.qq.com:8080, 183.47.99.24:14000, 42.81.192.181:443, 42.81.172.22:443, 180.102.110.73:80, 114.221.148.179:443, 42.81.172.215:443.[0m
+[92m2021-09-30 11:33:22 I/: ECDH key is valid.[0m
+[0m2021-09-30 11:33:22 V/: Send: wtlogin.exchange_emp[0m
+[31m2021-09-30 11:33:22 E/: Exception in coroutine 'unnamed'
+ExceptionInPacketCodecException(cause=net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler.handleExceptionInDecoding(NettyNetworkHandler.kt:63)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$ByteBufToIncomingPacketDecoder.channelRead0(NettyNetworkHandler.kt:85)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$ByteBufToIncomingPacketDecoder.channelRead0(NettyNetworkHandler.kt:75)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException
+	at net.mamoe.mirai.internal.utils.crypto.TEA.fail(TEA.kt:300)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.doOption$decrypt(TEA.kt:276)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.doOption(TEA.kt:296)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.decrypt(TEA.kt:320)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseOicqResponse(PacketCodec.kt:240)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:108)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$ByteBufToIncomingPacketDecoder.channelRead0(NettyNetworkHandler.kt:82)
+	... 23 more
+	Suppressed: net.mamoe.mirai.internal.network.components.OicqDecodingException
+	Caused by: [CIRCULAR REFERENCE: net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException]
+[0m
+[0m2021-09-30 11:33:26 V/: Recv: wtlogin.exchange_emp[0m
+[0m2021-09-30 11:33:26 V/: Send: StatSvc.register(online)[0m
+[31m2021-09-30 11:33:26 E/: Exception in coroutine 'unnamed'
+ExceptionInPacketCodecException(cause=net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler.handleExceptionInDecoding(NettyNetworkHandler.kt:63)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$ByteBufToIncomingPacketDecoder.channelRead0(NettyNetworkHandler.kt:85)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$ByteBufToIncomingPacketDecoder.channelRead0(NettyNetworkHandler.kt:75)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException
+	at net.mamoe.mirai.internal.utils.crypto.TEA.fail(TEA.kt:300)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.doOption$decrypt(TEA.kt:276)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.doOption(TEA.kt:296)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.decrypt(TEA.kt:320)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseOicqResponse(PacketCodec.kt:240)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:108)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$ByteBufToIncomingPacketDecoder.channelRead0(NettyNetworkHandler.kt:82)
+	... 23 more
+	Suppressed: net.mamoe.mirai.internal.network.components.OicqDecodingException
+	Caused by: [CIRCULAR REFERENCE: net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException]
+[0m
+[31m2021-09-30 11:33:26 E/: Exception in coroutine 'unnamed'
+ExceptionInPacketCodecException(cause=net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler.handleExceptionInDecoding(NettyNetworkHandler.kt:63)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$ByteBufToIncomingPacketDecoder.channelRead0(NettyNetworkHandler.kt:85)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$ByteBufToIncomingPacketDecoder.channelRead0(NettyNetworkHandler.kt:75)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:311)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:432)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:276)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException
+	at net.mamoe.mirai.internal.utils.crypto.TEA.fail(TEA.kt:300)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.doOption$decrypt(TEA.kt:276)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.doOption(TEA.kt:296)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.decrypt(TEA.kt:320)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseOicqResponse(PacketCodec.kt:240)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:108)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$ByteBufToIncomingPacketDecoder.channelRead0(NettyNetworkHandler.kt:82)
+	... 25 more
+	Suppressed: net.mamoe.mirai.internal.network.components.OicqDecodingException
+	Caused by: [CIRCULAR REFERENCE: net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException]
+[0m
+[31m2021-09-30 11:33:26 E/: Exception in coroutine 'unnamed'
+ExceptionInPacketCodecException(cause=net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler.handleExceptionInDecoding(NettyNetworkHandler.kt:63)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$ByteBufToIncomingPacketDecoder.channelRead0(NettyNetworkHandler.kt:85)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$ByteBufToIncomingPacketDecoder.channelRead0(NettyNetworkHandler.kt:75)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException
+	at net.mamoe.mirai.internal.utils.crypto.TEA.fail(TEA.kt:300)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.doOption$decrypt(TEA.kt:276)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.doOption(TEA.kt:296)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.decrypt(TEA.kt:320)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.parseOicqResponse(PacketCodec.kt:240)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:108)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$ByteBufToIncomingPacketDecoder.channelRead0(NettyNetworkHandler.kt:82)
+	... 23 more
+	Suppressed: net.mamoe.mirai.internal.network.components.OicqDecodingException
+	Caused by: [CIRCULAR REFERENCE: net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException]
+[0m
+[0m2021-09-30 11:33:27 V/: Recv: StatSvc.register[0m
+[92m2021-09-30 11:33:27 I/: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2021-09-30 11:33:27 I/: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[0m2021-09-30 11:33:31 V/: Recv: ConfigPushSvc.PushReq[0m
+[92m2021-09-30 11:33:31 I/: Server list: 42.81.170.24:443, 101.91.37.175:8080, 180.102.111.105:80, 180.102.110.41:443, 14.22.3.122:8080, 113.96.13.95:14000, 42.81.172.215:443, msfwifi.3g.qq.com:8080, 42.81.169.46:80, 42.81.184.101:443.[0m
+[0m2021-09-30 11:33:31 V/: Saving bdh session to cache[0m
+[0m2021-09-30 11:33:31 V/: Saving server list to cache[0m
+[0m2021-09-30 11:33:31 V/: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2021-09-30 11:33:31 V/: Recv: ConfigPushSvc.PushReq[0m
+[0m2021-09-30 11:33:31 V/: Saving bdh session to cache[0m
+[0m2021-09-30 11:33:31 V/: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[91m2021-09-30 14:50:01 W/: NettyChannelException(message=null, cause=java.net.SocketException: Connection reset)
+NettyChannelException(message=null, cause=java.net.SocketException: Connection reset)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$handlePipelineException$1.invoke(NettyNetworkHandler.kt:68)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$handlePipelineException$1.invoke(NettyNetworkHandler.kt:68)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:251)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler.handlePipelineException(NettyNetworkHandler.kt:418)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$setupChannelPipeline$1.exceptionCaught(NettyNetworkHandler.kt:109)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:302)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:281)
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:273)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:302)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:281)
+	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:125)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:177)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	... 8 more
+[0m
+[0m2021-09-30 14:50:01 V/: Loading server list from cache.[0m
+[92m2021-09-30 14:50:01 I/: Server list: 42.81.170.24:443, 101.91.37.175:8080, 180.102.111.105:80, 180.102.110.41:443, 14.22.3.122:8080, 113.96.13.95:14000, 42.81.172.215:443, msfwifi.3g.qq.com:8080, 42.81.169.46:80, 42.81.184.101:443.[0m
+[92m2021-09-30 14:50:01 I/: ECDH key is valid.[0m
+[0m2021-09-30 14:50:01 V/: Send: wtlogin.exchange_emp[0m
+[0m2021-09-30 14:50:01 V/: Recv: wtlogin.exchange_emp[0m
+[0m2021-09-30 14:50:01 V/: Send: StatSvc.register(online)[0m
+[0m2021-09-30 14:50:01 V/: Recv: StatSvc.register[0m
+[92m2021-09-30 14:50:01 I/: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2021-09-30 14:50:01 I/: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2021-09-30 14:50:04 V/: Recv: ConfigPushSvc.PushReq[0m
+[92m2021-09-30 14:50:04 I/: Server list: 101.91.37.242:8080, 125.94.60.148:8080, 113.96.12.217:8080, 42.81.172.207:443, 42.81.172.147:80, msfwifi.3g.qq.com:8080, 113.96.12.85:14000, 42.81.192.198:443, 114.221.144.89:80, 42.81.192.181:443.[0m
+[0m2021-09-30 14:50:04 V/: Saving bdh session to cache[0m
+[0m2021-09-30 14:50:04 V/: Saving server list to cache[0m
+[0m2021-09-30 14:50:04 V/: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2021-09-30 14:50:04 V/: Recv: ConfigPushSvc.PushReq[0m
+[0m2021-09-30 14:50:04 V/: Saving bdh session to cache[0m
+[0m2021-09-30 14:50:04 V/: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[91m2021-09-30 20:43:24 W/: HeartbeatFailedException: AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+HeartbeatFailedException: AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(NettyNetworkHandler.kt:361)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(NettyNetworkHandler.kt:361)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:251)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1.invoke(NettyNetworkHandler.kt:407)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1.invoke(NettyNetworkHandler.kt:360)
+	at net.mamoe.mirai.internal.network.components.TimeBasedHeartbeatSchedulerImpl$launchHeartbeatJobAsync$1.invokeSuspend(HeartbeatScheduler.kt:108)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+	... 13 more
+Caused by: kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms
+	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:186)
+	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:156)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:497)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:274)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:69)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[0m
+[0m2021-09-30 20:43:24 V/: Loading server list from cache.[0m
+[92m2021-09-30 20:43:24 I/: Server list: 101.91.37.242:8080, 125.94.60.148:8080, 113.96.12.217:8080, 42.81.172.207:443, 42.81.172.147:80, msfwifi.3g.qq.com:8080, 113.96.12.85:14000, 42.81.192.198:443, 114.221.144.89:80, 42.81.192.181:443.[0m
+[92m2021-09-30 20:43:24 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2021-09-30 20:43:25 I/: Successfully fetched ecdh public key from server.[0m
+[0m2021-09-30 20:43:25 V/: Send: wtlogin.exchange_emp[0m
+[0m2021-09-30 20:43:25 V/: Recv: wtlogin.exchange_emp[0m
+[0m2021-09-30 20:43:25 V/: Send: StatSvc.register(online)[0m
+[0m2021-09-30 20:43:25 V/: Recv: StatSvc.register[0m
+[92m2021-09-30 20:43:25 I/: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2021-09-30 20:43:25 I/: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2021-09-30 20:43:28 V/: Recv: ConfigPushSvc.PushReq[0m
+[92m2021-09-30 20:43:28 I/: Server list: 114.221.148.210:8080, 42.81.192.198:443, 114.221.148.67:80, msfwifi.3g.qq.com:8080, 125.94.60.146:8080, 42.81.169.46:80, 125.94.60.178:8080, 42.81.192.181:443, 14.22.9.53:14000, 42.81.184.101:443.[0m
+[0m2021-09-30 20:43:28 V/: Saving bdh session to cache[0m
+[0m2021-09-30 20:43:28 V/: Saving server list to cache[0m
+[0m2021-09-30 20:43:28 V/: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2021-09-30 20:43:28 V/: Recv: ConfigPushSvc.PushReq[0m
+[0m2021-09-30 20:43:28 V/: Saving bdh session to cache[0m
+[0m2021-09-30 20:43:28 V/: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
