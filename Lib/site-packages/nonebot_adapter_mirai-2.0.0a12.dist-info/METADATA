@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: nonebot-adapter-mirai
+Version: 2.0.0a12
+Summary: Mirai Api HTTP adapter for nonebot2
+Home-page: https://v2.nonebot.dev/
+License: AGPL-3.0-or-later
+Keywords: bot,qq,qqbot,mirai
+Author: Mix
+Author-email: admin@yami.im
+Requires-Python: >=3.7.3,<4.0.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Robot Framework
+Classifier: Framework :: Robot Framework :: Library
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: httpx (>=0.17.0,<0.18.0)
+Requires-Dist: nonebot2 (>=2.0.0-alpha.12,<3.0.0)
+Requires-Dist: websockets (>=8.1,<9.0)
+Project-URL: Documentation, https://v2.nonebot.dev/
+Project-URL: Repository, https://github.com/nonebot/nonebot2
+Description-Content-Type: text/markdown
+
+<p align="center">
+  <a href="https://v2.nonebot.dev/"><img src="https://raw.githubusercontent.com/nonebot/nonebot2/master/docs/.vuepress/public/logo.png" width="200" height="200" alt="nonebot"></a>
+</p>
+
+<div align="center">
+
+# NoneBot-Adapter-MIRAI
+
+_✨ mirai-api-http 协议适配 ✨_
+
+</div>
+
